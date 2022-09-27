@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 118898936}
   - component: {fileID: 118898939}
   m_Layer: 5
-  m_Name: AssistantButton
+  m_Name: MailButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ffe945e20583d4cacff6669ad8e435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonSo: {fileID: 11400000, guid: a808c0fe2a2b96a4db7e026d405100af, type: 2}
+  buttonSo: {fileID: 11400000, guid: 23553b53f63d19040a080037d4e1a2ac, type: 2}
 --- !u!1 &145288763
 GameObject:
   m_ObjectHideFlags: 0
@@ -2559,7 +2559,7 @@ GameObject:
   - component: {fileID: 1403041996}
   - component: {fileID: 1403041995}
   m_Layer: 5
-  m_Name: AsisstantPanel
+  m_Name: MailPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3365,7 +3365,7 @@ GameObject:
   - component: {fileID: 1774988707}
   - component: {fileID: 1774988706}
   m_Layer: 5
-  m_Name: MailPanel
+  m_Name: AssistantPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3444,7 +3444,7 @@ GameObject:
   - component: {fileID: 1788826054}
   - component: {fileID: 1788826057}
   m_Layer: 5
-  m_Name: MailButton
+  m_Name: AssistanButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3588,7 +3588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ffe945e20583d4cacff6669ad8e435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonSo: {fileID: 11400000, guid: 23553b53f63d19040a080037d4e1a2ac, type: 2}
+  buttonSo: {fileID: 11400000, guid: a808c0fe2a2b96a4db7e026d405100af, type: 2}
 --- !u!1 &1789882457
 GameObject:
   m_ObjectHideFlags: 0
