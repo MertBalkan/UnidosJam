@@ -6,9 +6,15 @@ namespace UnidosJam
 {
     public class NameField : MonoBehaviour
     {
+        private readonly string _noName = "Investor";
+        
         public void ReadName()
         {
-            NameManager.PlayerName = GetComponent<TMP_InputField>().text;
+            var name = GetComponent<TMP_InputField>().text;
+            
+            NameManager.PlayerName = string.IsNullOrWhiteSpace(name) ? _noName : name;
+            
+            GameManager.Instance.LoadNextScene();
             Debug.Log(NameManager.PlayerName);
         }
     }
