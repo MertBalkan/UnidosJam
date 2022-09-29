@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: AssistantButton
   m_EditorClassIdentifier: 
   spriteSettings:
-    closeSprite: {fileID: 21300000, guid: ea65d24b03ea0da4b8d98d11dcfce447, type: 3}
-    openSprite: {fileID: 21300000, guid: 379ff38493bdecd4891a7e87c3a81f2b, type: 3}
+    closeSprite: {fileID: 21300000, guid: 6771bfb9009125242b6bb8ba55d175c9, type: 3}
+    openSprite: {fileID: 21300000, guid: f857c9ca11e91204c8798e1913be7bf1, type: 3}

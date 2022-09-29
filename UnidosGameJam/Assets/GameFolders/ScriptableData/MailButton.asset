@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MailButton
   m_EditorClassIdentifier: 
   spriteSettings:
-    closeSprite: {fileID: 21300000, guid: 73e003b0f6ccc1f4ca2f0313ece386ee, type: 3}
-    openSprite: {fileID: 21300000, guid: 17a794711b9e53c41bb4f453a289140d, type: 3}
+    closeSprite: {fileID: 21300000, guid: 3740b1e0613ca7c439749fb99c2a9e8e, type: 3}
+    openSprite: {fileID: 21300000, guid: b6035fa3658da5245b11bf627a1dd2d3, type: 3}

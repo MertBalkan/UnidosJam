@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MusicButton
   m_EditorClassIdentifier: 
   spriteSettings:
-    closeSprite: {fileID: 21300000, guid: 255d2c085ae3aeb47acda94622af74cb, type: 3}
-    openSprite: {fileID: 21300000, guid: 7167a7e00870ffc4c8e0358ea516ebf3, type: 3}
+    closeSprite: {fileID: 21300000, guid: 11ad34c071c9d0547b9d01653ef217bb, type: 3}
+    openSprite: {fileID: 21300000, guid: 8c3225cefd79ba24f96c18017ca801c3, type: 3}
