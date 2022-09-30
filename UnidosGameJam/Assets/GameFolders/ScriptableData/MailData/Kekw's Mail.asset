@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
-  m_Name: El Sarona
+  m_Name: Kekw's Mail
   m_EditorClassIdentifier: 
   mailInformationStruct:
-    SenderName: El Sarona
-    MailText: ",\u011EL\u015EKFSDAA\u015E\u0130LFKASD\u0130\u015ELFKDAS\u0130\u015ELFKSDA\u0130L\u015EFKD\u0130S\u015EALFKDS\u0130\u015ELAKF\u0130SDP\u015EAOK\u0130\u015ELS\n"
+    character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
+    mailTitle: "I N\xD6\xD6D M\xD6N\xD6Y"
+    mailDate: 12.09.2022 (3 days ago)
+    MailText: "\u0130\u0130\u0130\u0130\u0130\u0130\u0130\u0130TUUUUUUUUUUUUU"
