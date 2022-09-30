@@ -7,26 +7,36 @@ namespace UnidosJam
     public class MailPanel : MonoBehaviour
     {
         [SerializeField] private MailInformationScriptableObject mailInformationSo;
-        [SerializeField] private GeneralTextPanel generalTextPanel;
-        [SerializeField] private MailTextPlace mailTextPlace;
+        private GeneralTextPanel _generalTextPanel;
+        private MailTextPlace _mailTextPlace;
 
         private MailPanels _mailPanels;
+        public MailInformationScriptableObject MailInformationSo => mailInformationSo;
         
         private void Awake()
         {
             _mailPanels = FindObjectOfType<MailPanels>();
+            _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
+            _mailTextPlace = FindObjectOfType<MailTextPlace>();
         }
 
         public void PressedPanel()
         {
             _mailPanels.gameObject.SetActive(false); 
-            generalTextPanel.gameObject.SetActive(true);
-            mailTextPlace.TextPlace.text = mailInformationSo.mailInformationStruct.MailText;
+            _generalTextPanel.gameObject.SetActive(true);
+            
+            CurrentDetails();
+        }
 
-            generalTextPanel.FromText.text = mailInformationSo.mailInformationStruct.character.characterSettings.CharacterName;
-            generalTextPanel.TitleText.text = mailInformationSo.mailInformationStruct.mailTitle;
-            generalTextPanel.DateText.text = "Date: " + mailInformationSo.mailInformationStruct.mailDate;
+        public void CurrentDetails()
+        {
+            _mailTextPlace.TextPlace.text = mailInformationSo.mailInformationStruct.MailText;
 
+            _generalTextPanel.FromText.text = mailInformationSo.mailInformationStruct.character.characterSettings.CharacterName;
+            _generalTextPanel.TitleText.text = mailInformationSo.mailInformationStruct.mailTitle;
+            _generalTextPanel.DateText.text = mailInformationSo.mailInformationStruct.mailDate;
+
+            _generalTextPanel.CurrentMailPanel = this.gameObject.GetComponent<MailPanel>();
         }
     }
 }

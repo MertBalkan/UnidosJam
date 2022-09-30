@@ -18,5 +18,6 @@ namespace UnidosJam
         {
             _textPlace = GetComponent<TextMeshProUGUI>();
         }
+
     }
 }
