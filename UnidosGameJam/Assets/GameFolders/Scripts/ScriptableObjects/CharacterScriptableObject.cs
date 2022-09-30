@@ -5,7 +5,6 @@ namespace UnidosJam.ScriptableObjects
     [CreateAssetMenu(fileName = "New Character", menuName = "UnidosJam/Create New Character")]
     public class CharacterScriptableObject : ScriptableObject
     {
-        
         [System.Serializable]
         public struct CharacterStruct
         {

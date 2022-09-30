@@ -23,8 +23,8 @@ namespace UnidosJam
             generalTextPanel.gameObject.SetActive(true);
             mailTextPlace.TextPlace.text = mailInformationSo.mailInformationStruct.MailText;
 
-            generalTextPanel.FromText.text = "From: " + mailInformationSo.mailInformationStruct.character.characterSettings.CharacterName;
-            generalTextPanel.TitleText.text = "Title: " + mailInformationSo.mailInformationStruct.mailTitle;
+            generalTextPanel.FromText.text = mailInformationSo.mailInformationStruct.character.characterSettings.CharacterName;
+            generalTextPanel.TitleText.text = mailInformationSo.mailInformationStruct.mailTitle;
             generalTextPanel.DateText.text = "Date: " + mailInformationSo.mailInformationStruct.mailDate;
 
         }
