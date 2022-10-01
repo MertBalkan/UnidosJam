@@ -19,7 +19,7 @@ namespace UnidosJam
         [SerializeField] private GameObject testText;
         
         private string _beforeText;
-        private GeneralTextPanel _generalTextPanel;
+        private NextDayGeneralTextPanel _generalTextPanel;
         private MailPanels _mailPanels;
 
         public MailInformationScriptableObject MailInformationSo => mailInformationSo;
@@ -41,7 +41,7 @@ namespace UnidosJam
         private void Awake()
         {
             _mailPanels = FindObjectOfType<MailPanels>();
-            _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
+            _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
         }
 
         private void Start()
@@ -54,7 +54,7 @@ namespace UnidosJam
         {
             thisMailHasBeenRead = true;
             
-            _generalTextPanel.CurrentMailPanel = this.gameObject.GetComponent<FirstDayMailPanel>();
+            _generalTextPanel.CurrentMailPanel = this.gameObject.GetComponent<NextDaysMailPanel>();
 
             _mailPanels.gameObject.SetActive(false); 
             _generalTextPanel.gameObject.SetActive(true);
@@ -93,10 +93,11 @@ namespace UnidosJam
         public void CurrentDetails()
         {
             var mailStruct = mailInformationSo.mailInformationStruct;
+            
             _beforeText = "\t" + mailStruct.character.characterSettings.CharacterName + "\t" +
                           mailStruct.mailTitle + "\t" +
                           mailStruct.mailDate + "\n" + "\n" +
-                          "  " + mailInformationSo.mailInformationStruct.MailText + "\n";
+                          "  " +mailStruct.MailText + "\n";
             
             testText.GetComponent<TextMeshProUGUI>().text = _beforeText;
         }

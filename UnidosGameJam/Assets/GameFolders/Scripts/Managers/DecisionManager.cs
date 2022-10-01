@@ -13,16 +13,17 @@ namespace UnidosJam
         [SerializeField] private DecisionButton[] buttons;
         
         public List<CharacterScriptableObject> characters;
+        
         private int _decisionCount = 0;
         private bool _canGoNextDay = false;
-        public bool CharactersSelected { get; private set; } = false;
 
         private GeneralTextPanel _generalTextPanel;
             
         public static DecisionManager Instance { get; private set; }
         public int DecisionCount => _decisionCount;
         public bool CanGoNextDay => _canGoNextDay;
-        
+        public bool CharactersSelected { get; private set; } = false;
+
         private void Awake()
         {
             SingletonObject();
@@ -46,22 +47,6 @@ namespace UnidosJam
             }
         }
 
-        public void PlayerClickNoButton()
-        { 
-            if (characters.Count >= 2)
-            {
-                return;
-            }
-            _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
-            
-            _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
-                .PlayerDecisions.negativeAnswers++;
-            
-            
-            _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
-                .playerAnswersToThisMail.NegativeAnswerToThisMail
-            );
-        }
 
         public void PlayerClickYesButton(){
 

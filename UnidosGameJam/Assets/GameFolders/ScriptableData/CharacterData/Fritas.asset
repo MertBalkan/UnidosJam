@@ -17,3 +17,4 @@ MonoBehaviour:
     PlayerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
+    characterMails: []

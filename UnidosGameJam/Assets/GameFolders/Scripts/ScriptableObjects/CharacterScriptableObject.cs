@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace UnidosJam.ScriptableObjects
@@ -10,6 +11,7 @@ namespace UnidosJam.ScriptableObjects
         {
             public string CharacterName;
             public PlayerDecision PlayerDecisions;
+            public List<MailInformationScriptableObject> characterMails; // new added
         }
         
         [System.Serializable]
