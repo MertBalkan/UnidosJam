@@ -44,10 +44,6 @@ public class PositiveNegativeManager : MonoBehaviour
     
     public void PlayerClickNoButton()
     { 
-        if (DecisionManager.Instance.characters.Count >= 2)
-        {
-            return;
-        }
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
             
         _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings

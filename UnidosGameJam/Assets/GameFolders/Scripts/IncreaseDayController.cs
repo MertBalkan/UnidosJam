@@ -13,6 +13,7 @@ public class IncreaseDayController : MonoBehaviour
     {
         decisionButtons = FindObjectsOfType<DecisionButton>();
         nextDaysMailPanels = FindObjectsOfType<NextDaysMailPanel>();
+        DecisionManager.Instance.DecisionCount = 0;
      
         GameManager.Instance.AssignCharactersToMails(nextDaysMailPanels);
     }

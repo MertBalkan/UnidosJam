@@ -20,7 +20,12 @@ namespace UnidosJam
         private GeneralTextPanel _generalTextPanel;
             
         public static DecisionManager Instance { get; private set; }
-        public int DecisionCount => _decisionCount;
+
+        public int DecisionCount
+        {
+            get => _decisionCount;
+            set => _decisionCount = value;
+        }
         public bool CanGoNextDay => _canGoNextDay;
 
         public DecisionButton[] Buttons
@@ -97,10 +102,11 @@ namespace UnidosJam
                 _canGoNextDay = true;
             }
 
-            if (CharactersSelected)
+            if (CharactersSelected && !_canGoNextDay)
             {
                 foreach (var button in buttons)
                 {
+                    Debug.Log("GIRDIMMM");
                     if(button != null)
                         button.gameObject.SetActive(false);
                 }
