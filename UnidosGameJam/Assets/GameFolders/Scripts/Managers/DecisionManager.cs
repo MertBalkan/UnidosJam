@@ -10,7 +10,6 @@ namespace UnidosJam
     public class DecisionManager : MonoBehaviour
     {
         [SerializeField] private Sprite readMailSprite;
-        [SerializeField] private DecisionButton[] decisionButtons;
         
         public List<CharacterScriptableObject> characters;
 
