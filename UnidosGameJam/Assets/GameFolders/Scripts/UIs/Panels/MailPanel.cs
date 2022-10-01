@@ -7,8 +7,9 @@ namespace UnidosJam
 {
     public class MailPanel : MonoBehaviour
     {
-        public GameObject answerText;
-
+        [SerializeField] private AnswerText answerText;
+        [SerializeField] private AnswerText[] otherAnswerTexts;
+        
         [SerializeField] private MailAnswersButton mailAnswerButton;
         [SerializeField] private MailAnswersButton[] otherMailAnswers;
         
@@ -44,6 +45,7 @@ namespace UnidosJam
         private void Start()
         {
             thisMailHasBeenRead = false;
+            answerText.gameObject.SetActive(false);
         }
 
         public void PressedPanel()
@@ -60,15 +62,21 @@ namespace UnidosJam
                 other.gameObject.SetActive(false);
             }
 
+            foreach (var other in otherAnswerTexts)
+            {
+                other.gameObject.SetActive(false);
+            }
+
             if ((mailAnswerButton.DecisionButtons[0].DecisionButtonPressed ||
                 mailAnswerButton.DecisionButtons[1].DecisionButtonPressed) && thisMailHasBeenRead)
             {
-                Debug.Log("GİRDİM");
                 mailAnswerButton.gameObject.SetActive(false);
+                answerText.gameObject.SetActive(true);
             }
             else
             {
                 mailAnswerButton.gameObject.SetActive(true);
+                answerText.gameObject.SetActive(true);
             }
             
             CurrentDetails();

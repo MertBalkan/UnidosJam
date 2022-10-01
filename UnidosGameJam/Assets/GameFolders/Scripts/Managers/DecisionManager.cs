@@ -45,6 +45,11 @@ namespace UnidosJam
             
             _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
                 .PlayerDecisions.negativeAnswers++;
+            
+            
+            _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
+                .playerAnswersToThisMail.NegativeAnswerToThisMail
+            );
         }
 
         public void PlayerClickYesButton()
@@ -63,10 +68,8 @@ namespace UnidosJam
                 Debug.Log(characterScriptableObject.name);
             }
 
-            // _generalTextPanel.CurrentMailPanel.BeforeText +=
             
-            
-            _generalTextPanel.CurrentMailPanel.SetAnswer(    "From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
+            _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
                 .playerAnswersToThisMail.PositiveAnswerToThisMail
             );
         }
