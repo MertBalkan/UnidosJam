@@ -14,7 +14,8 @@ namespace UnidosJam
         {
             foreach (var mailAnswersButton in mailAnswers)
             {
-                mailAnswersButton.gameObject.SetActive(false);
+                if(mailAnswersButton != null)
+                    mailAnswersButton.gameObject.SetActive(false);
             }
             mailPanels.gameObject.SetActive(true);
             generalTextPanel.gameObject.SetActive(false);

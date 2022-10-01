@@ -10,18 +10,26 @@ namespace UnidosJam
     public class DecisionManager : MonoBehaviour
     {
         [SerializeField] private Sprite readMailSprite;
+        [SerializeField] private DecisionButton[] buttons;
         
         public List<CharacterScriptableObject> characters;
+        private int _decisionCount = 0;
+        private bool _canGoNextDay = false;
+        public bool CharactersSelected { get; private set; } = false;
 
         private GeneralTextPanel _generalTextPanel;
-        
+            
         public static DecisionManager Instance { get; private set; }
+        public int DecisionCount => _decisionCount;
+        public bool CanGoNextDay => _canGoNextDay;
         
         private void Awake()
         {
             SingletonObject();
             
             _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
+            buttons = FindObjectsOfType<DecisionButton>();
+            
             characters = new List<CharacterScriptableObject>();
         }
 
@@ -39,7 +47,11 @@ namespace UnidosJam
         }
 
         public void PlayerClickNoButton()
-        {
+        { 
+            if (characters.Count >= 2)
+            {
+                return;
+            }
             _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
             
             _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
@@ -51,10 +63,16 @@ namespace UnidosJam
             );
         }
 
-        public void PlayerClickYesButton()
-        {
+        public void PlayerClickYesButton(){
+
+            if (characters.Count >= 2)
+            {
+                CharactersSelected = true;
+                return;
+            }
+
             _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
-            
+
             _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
                 .PlayerDecisions.positiveAnswers++;
 
@@ -67,10 +85,34 @@ namespace UnidosJam
                 Debug.Log(characterScriptableObject.name);
             }
 
-            
             _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
                 .playerAnswersToThisMail.PositiveAnswerToThisMail
             );
+
+            _decisionCount++;
+        }
+
+        private void Update()
+        {
+            Debug.Log(_decisionCount);
+
+            if (characters.Count >= 2)
+            {
+                CharactersSelected = true;
+            }
+            
+            if (_decisionCount >= 2)
+            {
+                _canGoNextDay = true;
+            }
+
+            if (CharactersSelected)
+            {
+                foreach (var button in buttons)
+                {
+                    button.gameObject.SetActive(false);
+                }
+            }
         }
 
         public void ReadMail()

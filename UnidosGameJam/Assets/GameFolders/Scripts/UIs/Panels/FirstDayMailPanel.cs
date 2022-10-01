@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace UnidosJam
 {
-    public class MailPanel : MonoBehaviour
+    public class FirstDayMailPanel : MonoBehaviour
     {
         [SerializeField] private AnswerText answerText;
         [SerializeField] private AnswerText[] otherAnswerTexts;
@@ -23,7 +23,9 @@ namespace UnidosJam
         private MailPanels _mailPanels;
 
         public MailInformationScriptableObject MailInformationSo => mailInformationSo;
-
+        public MailAnswersButton MailAnswersButton => mailAnswerButton;
+        public MailAnswersButton[] OtherMailAnswers => otherMailAnswers;
+        
         public string BeforeText
         {
             get => _beforeText;
@@ -52,14 +54,15 @@ namespace UnidosJam
         {
             thisMailHasBeenRead = true;
             
-            _generalTextPanel.CurrentMailPanel = this.gameObject.GetComponent<MailPanel>();
+            _generalTextPanel.CurrentMailPanel = this.gameObject.GetComponent<FirstDayMailPanel>();
 
             _mailPanels.gameObject.SetActive(false); 
             _generalTextPanel.gameObject.SetActive(true);
 
             foreach (var other in otherMailAnswers)
             {
-                other.gameObject.SetActive(false);
+                if(other != null)
+                    other.gameObject.SetActive(false);
             }
 
             foreach (var other in otherAnswerTexts)
@@ -67,16 +70,20 @@ namespace UnidosJam
                 other.gameObject.SetActive(false);
             }
 
-            if ((mailAnswerButton.DecisionButtons[0].DecisionButtonPressed ||
-                mailAnswerButton.DecisionButtons[1].DecisionButtonPressed) && thisMailHasBeenRead)
+            if ((mailAnswerButton.DecisionButtons[0].DecisionButtonPressed) && thisMailHasBeenRead)
             {
-                mailAnswerButton.gameObject.SetActive(false);
+                if(mailAnswerButton != null)
+                    mailAnswerButton.gameObject.SetActive(false);
                 answerText.gameObject.SetActive(true);
             }
             else
             {
-                mailAnswerButton.gameObject.SetActive(true);
-                answerText.gameObject.SetActive(true);
+                if (!DecisionManager.Instance.CharactersSelected)
+                {
+                    if(mailAnswerButton != null)
+                        mailAnswerButton.gameObject.SetActive(true);
+                    answerText.gameObject.SetActive(true);
+                }
             }
             
             CurrentDetails();

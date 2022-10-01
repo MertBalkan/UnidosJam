@@ -7,9 +7,9 @@ namespace UnidosJam
 {
     public class GeneralTextPanel : MonoBehaviour
     {
-        [SerializeField] private MailPanel currentMailPanel;
+        [SerializeField] private FirstDayMailPanel currentMailPanel;
 
-        public MailPanel CurrentMailPanel
+        public FirstDayMailPanel CurrentMailPanel
         {
             get => currentMailPanel;
             set => currentMailPanel = value;
