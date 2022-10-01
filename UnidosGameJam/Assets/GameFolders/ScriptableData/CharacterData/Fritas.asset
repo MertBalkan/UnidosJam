@@ -15,6 +15,8 @@ MonoBehaviour:
   characterSettings:
     CharacterName: Fritas
     PlayerDecisions:
-      positiveAnswers: 0
+      positiveAnswers: 1
       negativeAnswers: 0
-    characterMails: []
+    characterMails:
+    - {fileID: 11400000, guid: c6854da4bd0d767438960093a072054f, type: 2}
+    - {fileID: 11400000, guid: b24d5c19c63b6594b8fc8f8dc23fcf8a, type: 2}

@@ -17,4 +17,6 @@ MonoBehaviour:
     PlayerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
-    characterMails: []
+    characterMails:
+    - {fileID: 11400000, guid: bb20b8f305f7f1647a120dd65d34d59a, type: 2}
+    - {fileID: 11400000, guid: 0d9bf23a3761a13499e1c89b681f149a, type: 2}

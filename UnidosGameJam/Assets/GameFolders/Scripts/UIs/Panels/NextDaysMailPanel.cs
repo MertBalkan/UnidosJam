@@ -13,7 +13,7 @@ namespace UnidosJam
         [SerializeField] private MailAnswersButton mailAnswerButton;
         [SerializeField] private MailAnswersButton[] otherMailAnswers;
         
-        [SerializeField] private MailInformationScriptableObject mailInformationSo;
+        [SerializeField] private CharacterScriptableObject characterScriptableObject;
         [SerializeField] private bool thisMailHasBeenRead;
         
         [SerializeField] private GameObject testText;
@@ -22,9 +22,14 @@ namespace UnidosJam
         private NextDayGeneralTextPanel _generalTextPanel;
         private MailPanels _mailPanels;
 
-        public MailInformationScriptableObject MailInformationSo => mailInformationSo;
-        public MailAnswersButton MailAnswersButton => mailAnswerButton;
-        public MailAnswersButton[] OtherMailAnswers => otherMailAnswers;
+        public MailInformationScriptableObject MailInformationSo => characterScriptableObject.characterSettings.characterMails[GameManager.Instance.CurrentDayCount];
+
+        public CharacterScriptableObject CharacterScriptableObject
+        {
+            get => characterScriptableObject;
+            set => characterScriptableObject = value;
+        }
+        
         
         public string BeforeText
         {
@@ -79,12 +84,13 @@ namespace UnidosJam
             }
             else
             {
-                if (!DecisionManager.Instance.CharactersSelected)
-                {
-                    if(mailAnswerButton != null)
-                        mailAnswerButton.gameObject.SetActive(true);
-                    answerText.gameObject.SetActive(true);
-                }
+                mailAnswerButton.gameObject.SetActive(true);
+            //     if (!DecisionManager.Instance.CharactersSelected)
+            //     {
+            //         if(mailAnswerButton != null)
+            //             mailAnswerButton.gameObject.SetActive(true);
+            //         answerText.gameObject.SetActive(true);
+            //     }
             }
             
             CurrentDetails();
@@ -92,12 +98,12 @@ namespace UnidosJam
 
         public void CurrentDetails()
         {
-            var mailStruct = mailInformationSo.mailInformationStruct;
+            var mailStruct = characterScriptableObject.characterSettings.characterMails[GameManager.Instance.CurrentDayCount];
             
-            _beforeText = "\t" + mailStruct.character.characterSettings.CharacterName + "\t" +
-                          mailStruct.mailTitle + "\t" +
-                          mailStruct.mailDate + "\n" + "\n" +
-                          "  " +mailStruct.MailText + "\n";
+            _beforeText = "\t" + mailStruct.mailInformationStruct.character.characterSettings.CharacterName + "\t" +
+                          mailStruct.mailInformationStruct.mailTitle + "\t" +
+                          mailStruct.mailInformationStruct.mailDate + "\n" + "\n" +
+                          "  " +mailStruct.mailInformationStruct.MailText + "\n";
             
             testText.GetComponent<TextMeshProUGUI>().text = _beforeText;
         }

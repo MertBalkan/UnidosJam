@@ -22,6 +22,12 @@ namespace UnidosJam
         public static DecisionManager Instance { get; private set; }
         public int DecisionCount => _decisionCount;
         public bool CanGoNextDay => _canGoNextDay;
+
+        public DecisionButton[] Buttons
+        {
+            get => buttons;
+            set => buttons = value;
+        }
         public bool CharactersSelected { get; private set; } = false;
 
         private void Awake()
@@ -95,7 +101,8 @@ namespace UnidosJam
             {
                 foreach (var button in buttons)
                 {
-                    button.gameObject.SetActive(false);
+                    if(button != null)
+                        button.gameObject.SetActive(false);
                 }
             }
         }

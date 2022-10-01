@@ -8,6 +8,7 @@ namespace UnidosJam
     public class GameManager : MonoBehaviour
     {
         public static GameManager Instance { get; private set; }
+        public int CurrentDayCount = 0;
         
         private void Awake()
         {
@@ -23,6 +24,14 @@ namespace UnidosJam
             else
             {
                 Destroy(this.gameObject);
+            }
+        }
+
+        public void AssignCharactersToMails(NextDaysMailPanel[] mailPanels)
+        {
+            for (int i = 0; i < DecisionManager.Instance.characters.Count; i++)
+            {
+                mailPanels[i].CharacterScriptableObject = DecisionManager.Instance.characters[i];
             }
         }
         
