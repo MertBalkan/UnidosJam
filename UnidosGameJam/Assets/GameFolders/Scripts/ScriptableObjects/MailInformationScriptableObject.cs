@@ -13,6 +13,15 @@ namespace UnidosJam.ScriptableObjects
             public string mailDate;
             [Multiline] public string MailText;
         }
+        
+        [System.Serializable]
+        public struct PlayerAnswerTexts
+        {
+            [Multiline] public string PositiveAnswerToThisMail;
+            [Multiline] public string NegativeAnswerToThisMail;
+        }
+
         public MailInformationStruct mailInformationStruct;
+        public PlayerAnswerTexts playerAnswersToThisMail;
     }
 }

@@ -16,4 +16,15 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
     mailTitle: "I W\xD6NN\xD6 W\xD6RK \xD6SSH\xD6LE"
     mailDate: Sept. 15
-    MailText: ",\u011EL\u015EKFSDAA\u015E\u0130LFKASD\u0130\u015ELFKDAS\u0130\u015ELFKSDA\u0130L\u015EFKD\u0130S\u015EALFKDS\u0130\u015ELAKF\u0130SDP\u015EAOK\u0130\u015ELS\n"
+    MailText: "Hello, I'm Sierra Sevilla, a former multidisciplinary designer and
+      architect who has switched her career into game design. I'm contacting regarding
+      a game project we are working on with my friend Mart\xEDn Baltra. Our goal
+      is to make games that have something to say and make an impact on people. The
+      game we will make will be about the discrimination suffered by Latino immigrants.
+      It's a sensitive matter but we are determined enough to delivered it on time.
+      In order to bring this project to life, we need to expand our team and $50,000
+      will be required for all our expenses in total for the next six month. We would
+      love to have you on board in this project."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: Hi matia
+    NegativeAnswerToThisMail: Bb matia

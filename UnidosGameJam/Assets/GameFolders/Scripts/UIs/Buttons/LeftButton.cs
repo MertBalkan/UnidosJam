@@ -7,10 +7,15 @@ namespace UnidosJam
     {
         [SerializeField] private GeneralTextPanel generalTextPanel;
         [SerializeField] private MailPanels mailPanels;
+        [SerializeField] private MailAnswersButton[] mailAnswers;
+
 
         public void LeftButtonPressed()
         {
-            Debug.Log("CLICKED!");
+            foreach (var mailAnswersButton in mailAnswers)
+            {
+                mailAnswersButton.gameObject.SetActive(false);
+            }
             mailPanels.gameObject.SetActive(true);
             generalTextPanel.gameObject.SetActive(false);
         }

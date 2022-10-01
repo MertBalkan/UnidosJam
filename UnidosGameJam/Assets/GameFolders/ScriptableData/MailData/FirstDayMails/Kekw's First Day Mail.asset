@@ -17,3 +17,6 @@ MonoBehaviour:
     mailTitle: "I N\xD6\xD6D M\xD6N\xD6Y"
     mailDate: Sept. 13
     MailText: "\u0130\u0130\u0130\u0130\u0130\u0130\u0130\u0130TUUUUUUUUUUUUU"
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Well well well, i like u ma man\t\t\t"
+    NegativeAnswerToThisMail: I hate u bb

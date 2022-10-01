@@ -17,3 +17,6 @@ MonoBehaviour:
     mailTitle: THIS IS FRITAS
     mailDate: Sept. 11.
     MailText: FRITA'S CONTENT
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: Hello frita
+    NegativeAnswerToThisMail: Bb frita
