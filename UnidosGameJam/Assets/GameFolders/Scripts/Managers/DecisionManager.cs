@@ -26,7 +26,12 @@ namespace UnidosJam
             get => _decisionCount;
             set => _decisionCount = value;
         }
-        public bool CanGoNextDay => _canGoNextDay;
+
+        public bool CanGoNextDay
+        {
+            get => _canGoNextDay;
+            set => _canGoNextDay = value;
+        }
 
         public DecisionButton[] Buttons
         {

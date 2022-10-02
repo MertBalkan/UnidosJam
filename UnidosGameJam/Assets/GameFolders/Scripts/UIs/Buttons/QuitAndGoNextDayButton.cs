@@ -14,6 +14,7 @@ namespace UnidosJam.UIs
             _fadeCanvas = FindObjectOfType<FadeCanvas>();
         }
 
+
         public void GoNextDay()
         {
             if (DecisionManager.Instance.CanGoNextDay && !isEndOfTheGameLevel)
@@ -25,6 +26,19 @@ namespace UnidosJam.UIs
             if (isEndOfTheGameLevel)
             {
                 GameOverManager.Instance.PrintCharacterStatusToEndOfLevel();
+            }
+
+            try
+            {
+                if (PositiveNegativeManager.Instance.CanGoNextDay)
+                {
+                    _fadeCanvas.StartFade();
+                    GameManager.Instance.LoadNextSceneWait();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
             }
         }
     }

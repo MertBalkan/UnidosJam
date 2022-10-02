@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnidosJam;
@@ -9,7 +10,22 @@ public class PositiveNegativeManager : MonoBehaviour
     [SerializeField] private Sprite readMailSprite;
     private NextDayGeneralTextPanel _generalTextPanel;
     public static PositiveNegativeManager Instance { get; private set; }
+    
+    private int _decisionCount = 0;
+    private bool _canGoNextDay = false;
+    
+    public int DecisionCount
+    {
+        get => _decisionCount;
+        set => _decisionCount = value;
+    }
 
+    public bool CanGoNextDay
+    {
+        get => _canGoNextDay;
+        set => _canGoNextDay = value;
+    }
+    
     private void Awake()
     {
         SingletonObject(); 
@@ -29,7 +45,15 @@ public class PositiveNegativeManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-    
+
+    private void Update()
+    {
+        if (_decisionCount >= 2)
+        {
+            _canGoNextDay = true;
+        }
+    }
+
     public void PlayerClickYesButton()
     {
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
@@ -40,6 +64,7 @@ public class PositiveNegativeManager : MonoBehaviour
         _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
             .playerAnswersToThisMail.PositiveAnswerToThisMail
         );
+        _decisionCount++;
     }
     
     public void PlayerClickNoButton()
@@ -53,6 +78,7 @@ public class PositiveNegativeManager : MonoBehaviour
         _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
             .playerAnswersToThisMail.NegativeAnswerToThisMail
         );
+        _decisionCount++;
     }
     
     
