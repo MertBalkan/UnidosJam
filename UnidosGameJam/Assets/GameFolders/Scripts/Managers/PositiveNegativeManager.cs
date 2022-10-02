@@ -56,6 +56,7 @@ public class PositiveNegativeManager : MonoBehaviour
 
     public void PlayerClickYesButton()
     {
+        _decisionCount++;
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
 
         _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
@@ -64,11 +65,11 @@ public class PositiveNegativeManager : MonoBehaviour
         _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
             .playerAnswersToThisMail.PositiveAnswerToThisMail
         );
-        _decisionCount++;
     }
     
     public void PlayerClickNoButton()
     { 
+        _decisionCount++;
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
             
         _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
@@ -78,12 +79,12 @@ public class PositiveNegativeManager : MonoBehaviour
         _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
             .playerAnswersToThisMail.NegativeAnswerToThisMail
         );
-        _decisionCount++;
     }
     
     
     public void ReadMail()
     {
+        _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
         _generalTextPanel.CurrentMailPanel.GetComponent<Image>().sprite = readMailSprite;
     }
 }

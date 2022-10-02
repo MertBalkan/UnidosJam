@@ -85,12 +85,12 @@ namespace UnidosJam
             else
             {
                 mailAnswerButton.gameObject.SetActive(true);
-            if (!DecisionManager.Instance.CharactersSelected)
-            {
-                if(mailAnswerButton != null)
-                    mailAnswerButton.gameObject.SetActive(true);
-                answerText.gameObject.SetActive(true);
-            }
+                if (!DecisionManager.Instance.CharactersSelected)
+                {
+                    if(mailAnswerButton != null)
+                        mailAnswerButton.gameObject.SetActive(true);
+                    answerText.gameObject.SetActive(true);
+                }
             }
             
             CurrentDetails();

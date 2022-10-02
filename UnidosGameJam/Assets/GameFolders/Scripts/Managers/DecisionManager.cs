@@ -95,8 +95,6 @@ namespace UnidosJam
 
         private void Update()
         {
-            Debug.Log(_decisionCount);
-
             if (characters.Count >= 2)
             {
                 CharactersSelected = true;

@@ -23,8 +23,18 @@ namespace UnidosJam.UIs
                 GameManager.Instance.LoadNextSceneWait();
             }
 
-            if (isEndOfTheGameLevel)
+            try
             {
+                Debug.Log(PositiveNegativeManager.Instance.DecisionCount);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            
+            if (isEndOfTheGameLevel && PositiveNegativeManager.Instance.DecisionCount >= 2)
+            {
+                _fadeCanvas.StartFade();
                 GameOverManager.Instance.PrintCharacterStatusToEndOfLevel();
             }
 
