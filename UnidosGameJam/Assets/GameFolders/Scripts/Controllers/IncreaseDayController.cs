@@ -1,31 +1,38 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnidosJam;
 using UnityEngine;
 
-public class IncreaseDayController : MonoBehaviour
+namespace UnidosJam
 {
-    public DecisionButton[] decisionButtons;
-    public NextDaysMailPanel[] nextDaysMailPanels;
-
-    private void Awake()
+    public class IncreaseDayController : MonoBehaviour
     {
-        decisionButtons = FindObjectsOfType<DecisionButton>();
-        nextDaysMailPanels = FindObjectsOfType<NextDaysMailPanel>();
-        DecisionManager.Instance.DecisionCount = 0;
+        public DecisionButton[] decisionButtons;
+        public NextDaysMailPanel[] nextDaysMailPanels;
+
+        private void Awake()
+        {
+            decisionButtons = FindObjectsOfType<DecisionButton>();
+            nextDaysMailPanels = FindObjectsOfType<NextDaysMailPanel>();
+            DecisionManager.Instance.DecisionCount = 0;
      
-        GameManager.Instance.AssignCharactersToMails(nextDaysMailPanels);
-    }
+            GameManager.Instance.AssignCharactersToMails(nextDaysMailPanels);
+        }
 
-    private void Start()
-    {
-        IncreaseDay();
-        DecisionManager.Instance.Buttons = decisionButtons;
-    }
+        private void Start()
+        {
+            IncreaseDay();
+        }
 
-    private void IncreaseDay()
-    {
-        GameManager.Instance.CurrentDayCount++;
+        private void Update()
+        {
+            if (GameManager.Instance.CurrentDayCount >= 4)
+            {
+                // Today is last day of the game
+            }
+        }
+
+        private void IncreaseDay()
+        {
+            GameManager.Instance.CurrentDayCount++;
+        }
     }
 }

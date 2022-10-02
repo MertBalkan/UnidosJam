@@ -22,7 +22,7 @@ namespace UnidosJam
         private void OnEnable()
         {
             _currentTextLines = todaysAssistantMessage.assistantMessageOptions.assistantDialogues;
-            mainAssistantText.text = string.Empty;
+            // mainAssistantText.text = string.Empty;
             
             playerTyping.SetActive(true);
             assistantTyping.SetActive(false);
@@ -107,6 +107,7 @@ namespace UnidosJam
             {
                 _index++;
                 mainAssistantText.text += "\n";
+                
                 StartCoroutine(TypeLine());
             }
             else

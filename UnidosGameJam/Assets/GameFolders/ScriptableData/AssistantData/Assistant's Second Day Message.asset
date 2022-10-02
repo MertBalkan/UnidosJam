@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f295a55396d5aac44a2d9cb5d09a066e, type: 3}
-  m_Name: Assistant's First Day Message
+  m_Name: Assistant's Second Day Message
   m_EditorClassIdentifier: 
   assistantMessageOptions:
     assistantDialogues:
-    - 'Louis: This is first text from assistant'
-    - 'You: This is my first answer as a Player'
-    - 'Louis: This is second text from assistant'
-    - 'You: This is my second  answer as a Player'
+    - 'Louis: This is first text from assistant 2'
+    - 'You: This is my first answer as a Player 2'
+    - 'Louis: This is second text from assistant 2'
+    - 'You: This is my second  answer as a Player 2'
     textSpeed: 0.05
     gameDay: 0
