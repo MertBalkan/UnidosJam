@@ -6882,7 +6882,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1788826057}
-        m_TargetAssemblyTypeName: UnidosJam.UIs.BaseButtonUI, Assembly-CSharp
+        m_TargetAssemblyTypeName: UnidosJam.AssistanButton, Assembly-CSharp
         m_MethodName: OpenNewWindow
         m_Mode: 2
         m_Arguments:
@@ -6940,7 +6940,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1788826052}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8ffe945e20583d4cacff6669ad8e435, type: 3}
+  m_Script: {fileID: 11500000, guid: b46772e825d1072468d65005861c669d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSo: {fileID: 11400000, guid: a808c0fe2a2b96a4db7e026d405100af, type: 2}
