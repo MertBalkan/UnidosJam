@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace UnidosJam.UIs
@@ -8,8 +9,15 @@ namespace UnidosJam.UIs
 
         public void ChangeSpriteAsClose()
         {
-            buttonUI.ButtonImage.sprite = buttonUI.ButtonSo.spriteSettings.closeSprite;
-            buttonUI.ClickCount = 0;
+            try
+            {
+                buttonUI.ButtonImage.sprite = buttonUI.ButtonSo.spriteSettings.closeSprite;
+                buttonUI.ClickCount = 0;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
     }
 }

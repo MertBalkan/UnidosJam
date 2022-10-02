@@ -41,7 +41,7 @@ namespace UnidosJam.UIs
             _image.sprite = _clickCount % 2 != 0 ? buttonSo.spriteSettings.openSprite : buttonSo.spriteSettings.closeSprite;
         }
 
-        public void OpenNewWindow(GameObject windowPanel)
+        public virtual void OpenNewWindow(GameObject windowPanel)
         {
             windowPanel.SetActive(true);
 
