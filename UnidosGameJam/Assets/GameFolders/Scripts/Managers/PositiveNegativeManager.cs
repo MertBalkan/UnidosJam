@@ -35,7 +35,7 @@ public class PositiveNegativeManager : MonoBehaviour
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
 
         _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
-            .PlayerDecisions.positiveAnswers++;
+            .playerDecisions.positiveAnswers++;
 
         _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
             .playerAnswersToThisMail.PositiveAnswerToThisMail
@@ -47,7 +47,7 @@ public class PositiveNegativeManager : MonoBehaviour
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
             
         _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
-            .PlayerDecisions.negativeAnswers++;
+            .playerDecisions.negativeAnswers++;
             
             
         _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo

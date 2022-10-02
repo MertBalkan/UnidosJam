@@ -13,11 +13,14 @@ MonoBehaviour:
   m_Name: Mert
   m_EditorClassIdentifier: 
   characterSettings:
-    CharacterName: Mert
-    PlayerDecisions:
+    characterName: Mert
+    playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
+      characterPositiveEnding: Mert  + Ending
+      characterNegativeEnding: Mert - Ending
     characterMails:
     - {fileID: 11400000, guid: bb20b8f305f7f1647a120dd65d34d59a, type: 2}
     - {fileID: 11400000, guid: 0d9bf23a3761a13499e1c89b681f149a, type: 2}
     - {fileID: 11400000, guid: 4f457fa19f422bb44bd4c509407bcdbd, type: 2}
+    isNotrCharacter: 0

@@ -11,7 +11,7 @@ namespace UnidosJam
         {
             base.OpenNewWindow(windowPanel);
             
-            // windowPanel.GetComponent<AssistantPanel>().StartDialogue();
+            windowPanel.GetComponent<AssistantPanel>().StartDialogue();
         }
     }
 }

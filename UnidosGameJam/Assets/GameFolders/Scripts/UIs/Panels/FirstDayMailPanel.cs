@@ -92,7 +92,7 @@ namespace UnidosJam
         public void CurrentDetails()
         {
             var mailStruct = mailInformationSo.mailInformationStruct;
-            _beforeText = "\t" + mailStruct.character.characterSettings.CharacterName + "\t" +
+            _beforeText = "\t" + mailStruct.character.characterSettings.characterName + "\t" +
                           mailStruct.mailTitle + "\t" +
                           mailStruct.mailDate + "\n" + "\n" +
                           "  " + mailInformationSo.mailInformationStruct.MailText + "\n";

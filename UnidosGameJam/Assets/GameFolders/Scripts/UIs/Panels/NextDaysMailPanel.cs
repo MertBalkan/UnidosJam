@@ -100,7 +100,7 @@ namespace UnidosJam
         {
             var mailStruct = characterScriptableObject.characterSettings.characterMails[GameManager.Instance.CurrentDayCount];
             
-            _beforeText = "\t" + mailStruct.mailInformationStruct.character.characterSettings.CharacterName + "\t" +
+            _beforeText = "\t" + mailStruct.mailInformationStruct.character.characterSettings.characterName + "\t" +
                           mailStruct.mailInformationStruct.mailTitle + "\t" +
                           mailStruct.mailInformationStruct.mailDate + "\n" + "\n" +
                           "  " +mailStruct.mailInformationStruct.MailText + "\n";

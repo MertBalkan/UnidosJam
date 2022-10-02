@@ -6,6 +6,7 @@ namespace UnidosJam.UIs
 {
     public class QuitAndGoNextDayButton : MonoBehaviour
     {
+        public bool isEndOfTheGameLevel = false; // Do true end of the game
         private FadeCanvas _fadeCanvas;
 
         private void Awake()
@@ -15,10 +16,15 @@ namespace UnidosJam.UIs
 
         public void GoNextDay()
         {
-            if (DecisionManager.Instance.CanGoNextDay)
+            if (DecisionManager.Instance.CanGoNextDay && !isEndOfTheGameLevel)
             {
                 _fadeCanvas.StartFade();
                 GameManager.Instance.LoadNextSceneWait();
+            }
+
+            if (isEndOfTheGameLevel)
+            {
+                GameOverManager.Instance.PrintCharacterStatusToEndOfLevel();
             }
         }
     }

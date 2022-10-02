@@ -69,8 +69,8 @@ namespace UnidosJam
 
             _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
 
-            _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
-                .PlayerDecisions.positiveAnswers++;
+            // _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
+            //     .PlayerDecisions.positiveAnswers++;
 
             if (characters.Contains(_generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character)) return;
             

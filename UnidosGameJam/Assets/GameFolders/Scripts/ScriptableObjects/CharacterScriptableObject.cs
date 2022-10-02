@@ -9,9 +9,11 @@ namespace UnidosJam.ScriptableObjects
         [System.Serializable]
         public struct CharacterStruct
         {
-            public string CharacterName;
-            public PlayerDecision PlayerDecisions;
+            public string characterName;
+            
+            public PlayerDecision playerDecisions;
             public List<MailInformationScriptableObject> characterMails; // new added
+            public bool isNotrCharacter;
         }
         
         [System.Serializable]
@@ -19,6 +21,9 @@ namespace UnidosJam.ScriptableObjects
         {
             public int positiveAnswers;
             public int negativeAnswers;
+            
+            public string characterPositiveEnding;
+            public string characterNegativeEnding;
         }
         
         public CharacterStruct characterSettings;

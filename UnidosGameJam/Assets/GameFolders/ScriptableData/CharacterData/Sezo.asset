@@ -13,11 +13,14 @@ MonoBehaviour:
   m_Name: Sezo
   m_EditorClassIdentifier: 
   characterSettings:
-    CharacterName: Sezo
-    PlayerDecisions:
+    characterName: Sezo
+    playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
+      characterPositiveEnding: Sezo + Ending
+      characterNegativeEnding: Sezo - Ending
     characterMails:
     - {fileID: 11400000, guid: 639fb7628028b8e47a95dc869643a386, type: 2}
     - {fileID: 11400000, guid: 880d92cf2e8bca342b4dde2f455e3bed, type: 2}
     - {fileID: 11400000, guid: 68c860bb48c9c544987d660770f0a67a, type: 2}
+    isNotrCharacter: 0

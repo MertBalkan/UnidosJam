@@ -13,11 +13,14 @@ MonoBehaviour:
   m_Name: Kekw
   m_EditorClassIdentifier: 
   characterSettings:
-    CharacterName: Kekw
-    PlayerDecisions:
+    characterName: Kekw
+    playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
+      characterPositiveEnding: Kekw + Ending
+      characterNegativeEnding: Kekw - Ending
     characterMails:
     - {fileID: 11400000, guid: 04091ea655943fd40a5f512abb8fc07a, type: 2}
     - {fileID: 11400000, guid: 52b2da41282f3334aba1da1031b6b9f5, type: 2}
     - {fileID: 11400000, guid: 705247b48e7a6f74ca42867a6af863eb, type: 2}
+    isNotrCharacter: 0
