@@ -15,12 +15,14 @@ MonoBehaviour:
   characterSettings:
     characterName: Mert
     playerDecisions:
-      positiveAnswers: 0
-      negativeAnswers: 0
+      positiveAnswers: 1
+      negativeAnswers: 1
       characterPositiveEnding: Mert  + Ending
       characterNegativeEnding: Mert - Ending
     characterMails:
     - {fileID: 11400000, guid: bb20b8f305f7f1647a120dd65d34d59a, type: 2}
     - {fileID: 11400000, guid: 0d9bf23a3761a13499e1c89b681f149a, type: 2}
     - {fileID: 11400000, guid: 4f457fa19f422bb44bd4c509407bcdbd, type: 2}
+    - {fileID: 11400000, guid: 975b005acdb143a4483bab58e3e469eb, type: 2}
+    - {fileID: 11400000, guid: d6dba2c6817b545428927bf0c9f634e0, type: 2}
     isNotrCharacter: 0

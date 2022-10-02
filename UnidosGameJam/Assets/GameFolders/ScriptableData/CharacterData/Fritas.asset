@@ -15,12 +15,14 @@ MonoBehaviour:
   characterSettings:
     characterName: Fritas
     playerDecisions:
-      positiveAnswers: 0
-      negativeAnswers: 0
+      positiveAnswers: 2
+      negativeAnswers: 2
       characterPositiveEnding: Fritas + Ending
       characterNegativeEnding: Fritas - Ending
     characterMails:
     - {fileID: 11400000, guid: c6854da4bd0d767438960093a072054f, type: 2}
     - {fileID: 11400000, guid: b24d5c19c63b6594b8fc8f8dc23fcf8a, type: 2}
     - {fileID: 11400000, guid: 51fcee233bfdef84e857eb3826a71f34, type: 2}
+    - {fileID: 11400000, guid: 51d56820ffed7fc47ba16fa64f766827, type: 2}
+    - {fileID: 11400000, guid: 6791a7052f1cc4749860c18a2a966a9e, type: 2}
     isNotrCharacter: 0

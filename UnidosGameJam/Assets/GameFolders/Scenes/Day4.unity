@@ -3883,7 +3883,7 @@ PrefabInstance:
     - target: {fileID: 8954521549043730704, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: todaysAssistantMessage
       value: 
-      objectReference: {fileID: 11400000, guid: 06363d396dcfd424c9a6a18186b303c9, type: 2}
+      objectReference: {fileID: 11400000, guid: 2d49e8a21c83b0548a24757905b3acfd, type: 2}
     - target: {fileID: 8954521549043730704, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: myCloseButtons.Array.data[2]
       value: 

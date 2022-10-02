@@ -56,6 +56,7 @@ public class PositiveNegativeManager : MonoBehaviour
 
     public void PlayerClickYesButton()
     {
+        Debug.Log("YES BUTTON ");
         _decisionCount++;
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
 
@@ -69,6 +70,7 @@ public class PositiveNegativeManager : MonoBehaviour
     
     public void PlayerClickNoButton()
     { 
+        Debug.Log("NO BUTTON ");
         _decisionCount++;
         _generalTextPanel = FindObjectOfType<NextDayGeneralTextPanel>();
             

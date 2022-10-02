@@ -24,6 +24,17 @@ namespace UnidosJam
             IncreaseDay();
         }
 
+        public void YesButtonPressed()
+        {
+            PositiveNegativeManager.Instance.PlayerClickYesButton();
+        }
+        
+        
+        public void NoButtonPressed()
+        {
+            PositiveNegativeManager.Instance.PlayerClickNoButton();
+        }
+
         private void IncreaseDay()
         {
             GameManager.Instance.CurrentDayCount++;
