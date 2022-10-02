@@ -10,12 +10,12 @@ namespace UnidosJam.Animations
 
         private void Awake()
         {
-            _animator = GetComponent<Animator>();
+            // _animator = GetComponent<Animator>();
         }
 
         public void PlayAnimation()
         {
-            _animator.SetTrigger(StartDialogue);
+            // _animator.SetTrigger(StartDialogue);
         }
     }
 }

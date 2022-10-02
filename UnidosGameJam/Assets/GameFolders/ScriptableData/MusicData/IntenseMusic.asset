@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSettings:
     musicClip: {fileID: 8300000, guid: 97cc549a72e6d2e48985c47e811077a4, type: 3}
-    copyrightText: '"Tango de Manzana" by Kevin MacLeod (incompetech.com) '
+    copyrightText: '"Tango de Manzana"
+
+      by Kevin MacLeod (incompetech.com) '

@@ -86,8 +86,8 @@ namespace UnidosJam
                 Debug.Log(characterScriptableObject.name);
             }
 
-            _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
-                .playerAnswersToThisMail.PositiveAnswerToThisMail
+            _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + "\n" + _generalTextPanel.CurrentMailPanel.MailInformationSo
+                .playerAnswersToThisMail.PositiveAnswerToThisMail + NameManager.PlayerName
             );
 
             _decisionCount++;
@@ -109,10 +109,14 @@ namespace UnidosJam
             {
                 foreach (var button in buttons)
                 {
-                    Debug.Log("GIRDIMMM");
                     if(button != null)
                         button.gameObject.SetActive(false);
                 }
+            }
+
+            if (CanGoNextDay)
+            {
+                SoundManager.Instance.PlayYawnSoundEffect();
             }
         }
 

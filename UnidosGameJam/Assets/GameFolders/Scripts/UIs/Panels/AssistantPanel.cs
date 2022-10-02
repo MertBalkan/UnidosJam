@@ -51,17 +51,21 @@ namespace UnidosJam
             if (Input.GetMouseButtonDown(0))
             {
                 NextLine();
+                SoundManager.Instance.PlayAssistantMessageSoundEffect();
             }
 
             if (_index % 2 == 0)
             {
+                SoundManager.Instance.PlayKeyboardTypingSoundEffect();
                 assistantTyping.SetActive(false);
                 playerTyping.SetActive(true);
             }
             else
             {
+                // SoundManager.Instance.PlayAssistantMessageSoundEffect();
                 if (!_endDialogue)
                 {
+                    SoundManager.Instance.StopKeyboardTypingSoundEffect();
                     assistantTyping.SetActive(true);
                     playerTyping.SetActive(false);
                 }    

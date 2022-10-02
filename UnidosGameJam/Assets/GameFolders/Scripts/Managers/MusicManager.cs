@@ -24,18 +24,10 @@ namespace UnidosJam
         
         private void Start()
         {
-            if (!PlayerPrefs.HasKey("_isSoundPlaying"))
-            {
-                PlayerPrefs.SetInt("_isSoundPlaying", 0);
-                LoadSound();
-            }
-            else
-            {
-                LoadSound();
-            }
+            _audioSource.Play();
 
             UpdateButtonIcon();
-            AudioListener.pause = _isSoundPlaying;
+            // AudioListener.pause = _isSoundPlaying;
         }
 
         public void ChangeMusic(MusicScriptableObject musicSo)
@@ -52,12 +44,14 @@ namespace UnidosJam
             if (!_isSoundPlaying)
             {
                 _isSoundPlaying = true;
-                AudioListener.pause = true;
+                // AudioListener.pause = true;
+                _audioSource.Stop();
             }
             else
             {
                 _isSoundPlaying = false;
-                AudioListener.pause = false;
+                // AudioListener.pause = false;
+                _audioSource.Play();
             }
 
             SaveSound();

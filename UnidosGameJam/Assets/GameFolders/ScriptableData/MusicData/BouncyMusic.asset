@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSettings:
     musicClip: {fileID: 8300000, guid: 2eba96de12ce3be4a89d97ce72964908, type: 3}
-    copyrightText: '"No Frills Cumbia" by Kevin MacLeod (incompetech.com)'
+    copyrightText: "\"No Frills Cumbia\" \nby Kevin MacLeod (incompetech.com)"

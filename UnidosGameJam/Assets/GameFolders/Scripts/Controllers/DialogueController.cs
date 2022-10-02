@@ -9,6 +9,7 @@ namespace UnidosJam
 {
     public class DialogueController : MonoBehaviour
     {
+        [SerializeField] private TextMeshProUGUI characterName;
         [SerializeField] private TextMeshProUGUI text;
         [SerializeField] private float textSpeed;
 
@@ -20,6 +21,7 @@ namespace UnidosJam
         private void Start()
         {
             text.text = string.Empty;
+            characterName.text = NameManager.PlayerName;
         }
 
         public void StartDialogue(string[] textLines)

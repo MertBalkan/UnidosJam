@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSettings:
     musicClip: {fileID: 8300000, guid: a0b5f701dd531894e89c01570855ef60, type: 3}
-    copyrightText: '"Laid Back Guitars" by Kevin MacLeod (incompetech.com) '
+    copyrightText: '"Laid Back Guitars"
+
+      by Kevin MacLeod (incompetech.com) '

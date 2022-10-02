@@ -12,6 +12,7 @@ namespace UnidosJam
             base.OpenNewWindow(windowPanel);
             
             windowPanel.GetComponent<AssistantPanel>().StartDialogue();
+            SoundManager.Instance.PlayAssistantMessageSoundEffect();
         }
     }
 }

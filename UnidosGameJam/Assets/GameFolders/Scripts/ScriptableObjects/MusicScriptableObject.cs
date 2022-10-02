@@ -11,7 +11,7 @@ namespace UnidosJam
         public struct MusicSettings
         {
             public AudioClip musicClip;
-            public string copyrightText;
+            [Multiline] public string copyrightText;
         }
 
         public MusicSettings musicSettings;

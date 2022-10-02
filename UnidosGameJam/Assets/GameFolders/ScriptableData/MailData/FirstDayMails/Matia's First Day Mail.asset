@@ -16,15 +16,20 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
     mailTitle: "I W\xD6NN\xD6 W\xD6RK \xD6SSH\xD6LE"
     mailDate: Sept. 15
-    MailText: "Hello, I'm Sierra Sevilla, a former multidisciplinary designer and
-      architect who has switched her career into game design. I'm contacting regarding
-      a game project we are working on with my friend Mart\xEDn Baltra. Our goal
-      is to make games that have something to say and make an impact on people. The
-      game we will make will be about the discrimination suffered by Latino immigrants.
-      It's a sensitive matter but we are determined enough to delivered it on time.
-      In order to bring this project to life, we need to expand our team and $50,000
-      will be required for all our expenses in total for the next six month. We would
-      love to have you on board in this project."
+    MailText: 'Hola!
+
+      I''m Ines, a 24 years old business management graduate
+      from Los Angeles. I''m originally from Cuba but I''ve moved to LA for my education
+      and I miss my family there since then. Being away from home made me look for
+      something to feel like I''m back there, and this is how I started making candles
+      smells like home. You heard that right, candles! I already have a rich collection
+      of scents coming from local foods to fruits and people love them. I mean, they
+      LOVE them. I want to continue doing what I love as a business and share la
+      cultura with the rest of the world now. I will need $50.000 to start my business
+      and I need your help with this. I hope you believe in my dreams and walk with
+      me on this path. Waiting to hear from you,
+
+'
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: Hi matia
+    PositiveAnswerToThisMail: 'Hi matia best, '
     NegativeAnswerToThisMail: Bb matia

@@ -92,10 +92,10 @@ namespace UnidosJam
         public void CurrentDetails()
         {
             var mailStruct = mailInformationSo.mailInformationStruct;
-            _beforeText = "\t" + mailStruct.character.characterSettings.characterName + "\t" +
+            _beforeText = "\n" + "From: " + mailStruct.character.characterSettings.characterName + " -" + "\t" +
                           mailStruct.mailTitle + "\t" +
-                          mailStruct.mailDate + "\n" + "\n" +
-                          "  " + mailInformationSo.mailInformationStruct.MailText + "\n";
+                         "\n" + "\n" +
+                          "" + mailInformationSo.mailInformationStruct.MailText + "\n";
             
             testText.GetComponent<TextMeshProUGUI>().text = _beforeText;
         }
