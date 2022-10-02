@@ -15,8 +15,9 @@ MonoBehaviour:
   characterSettings:
     CharacterName: Matias
     PlayerDecisions:
-      positiveAnswers: 1
+      positiveAnswers: 0
       negativeAnswers: 0
     characterMails:
     - {fileID: 11400000, guid: 900b7f74c9a33204285336c7d6b806c0, type: 2}
     - {fileID: 11400000, guid: 81a2d1d224629df409cf23138934d285, type: 2}
+    - {fileID: 11400000, guid: ee100ffc64da4d14aa96b3d19ac2a6f4, type: 2}

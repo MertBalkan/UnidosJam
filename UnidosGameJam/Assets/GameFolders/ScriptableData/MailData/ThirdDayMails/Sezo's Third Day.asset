@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Sezo's Third Day
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 142a2591bea657142ae637da6c67d47b, type: 2}
+    mailTitle: "I W\xD6NN\xD6 W\xD6RK \xD6SSH\xD6LE"
+    mailDate: Sept. 15
+    MailText: sezo 3
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: sezo 3 +
+    NegativeAnswerToThisMail: sezo 3 -

@@ -10,7 +10,8 @@ namespace UnidosJam
         public override void OpenNewWindow(GameObject windowPanel)
         {
             base.OpenNewWindow(windowPanel);
-            windowPanel.GetComponent<AssistantPanel>().StartDialogue();
+            
+            // windowPanel.GetComponent<AssistantPanel>().StartDialogue();
         }
     }
 }

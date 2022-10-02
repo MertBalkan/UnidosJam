@@ -2149,7 +2149,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
+      - m_Target: {fileID: 6599466060653264998, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
         m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
         m_MethodName: PlayerClickNoButton
         m_Mode: 1
@@ -2622,7 +2622,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
+      - m_Target: {fileID: 6599466060653264998, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
         m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
         m_MethodName: PlayerClickYesButton
         m_Mode: 1
@@ -2753,17 +2753,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f5839115f72c6249a44a199d7f418fd, type: 3}
---- !u!114 &606379476 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6599466060653264998, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-  m_PrefabInstance: {fileID: 6599466060046966194}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7407b88fcb35495498e9829dbdb5fea4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,6 +3478,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af4dcf88ab172cd4892b256fddc2dd08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &713241577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6599466060653264992, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_Name
+      value: '[PositiveNegativeManager]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
 --- !u!1 &747630553
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,7 +3883,7 @@ PrefabInstance:
     - target: {fileID: 8954521549043730704, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: todaysAssistantMessage
       value: 
-      objectReference: {fileID: 11400000, guid: ae467684f12b7bb4ba13b0acab5325f1, type: 2}
+      objectReference: {fileID: 11400000, guid: 06363d396dcfd424c9a6a18186b303c9, type: 2}
     - target: {fileID: 8954521549043730704, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: myCloseButtons.Array.data[2]
       value: 
@@ -6058,7 +6104,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
+      - m_Target: {fileID: 6599466060653264998, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
         m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
         m_MethodName: PlayerClickNoButton
         m_Mode: 1
@@ -7541,7 +7587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7133694573822858365, guid: d03eb7b3d91b86b489bb4262957ecdb3, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7133694573822858365, guid: d03eb7b3d91b86b489bb4262957ecdb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7732,7 +7778,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
         m_MethodName: ReadMail
         m_Mode: 1
@@ -7800,7 +7846,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
         m_MethodName: ReadMail
         m_Mode: 1
@@ -8087,63 +8133,6 @@ MonoBehaviour:
   characterScriptableObject: {fileID: 0}
   thisMailHasBeenRead: 0
   testText: {fileID: 7830255199484065229}
---- !u!1001 &6599466060046966194
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6599466060653264992, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_Name
-      value: '[PositiveNegativeManager]'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6599466060653264993, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
 --- !u!1001 &7605879646252081024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8157,7 +8146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3442858160045015720, guid: c897a11e04e816a43950e74329e847c2, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3442858160045015720, guid: c897a11e04e816a43950e74329e847c2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8534,7 +8523,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
+      - m_Target: {fileID: 6599466060653264998, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
         m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
         m_MethodName: PlayerClickYesButton
         m_Mode: 1
