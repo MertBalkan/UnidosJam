@@ -2535,7 +2535,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1883362398}
+      - m_Target: {fileID: 1478078377}
         m_TargetAssemblyTypeName: UnidosJam.DecisionDistributor, Assembly-CSharp
         m_MethodName: PlayerClickedNoButton
         m_Mode: 1
@@ -2907,7 +2907,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1883362398}
+      - m_Target: {fileID: 1478078377}
         m_TargetAssemblyTypeName: UnidosJam.DecisionDistributor, Assembly-CSharp
         m_MethodName: PlayerClickedYesButton
         m_Mode: 1
@@ -5883,6 +5883,74 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffe5c8fe5951665489b26d40f1ba4a16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1478078376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754679499301746431, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+      propertyPath: m_Name
+      value: DecisionDistributor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+--- !u!114 &1478078377 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6754679499301746428, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
+  m_PrefabInstance: {fileID: 1478078376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e23017b3677c34aa3bc9ec393c1b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1488091898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6287,7 +6355,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1883362398}
+      - m_Target: {fileID: 1478078377}
         m_TargetAssemblyTypeName: UnidosJam.DecisionDistributor, Assembly-CSharp
         m_MethodName: PlayerClickedNoButton
         m_Mode: 1
@@ -7623,17 +7691,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880742218}
   m_CullTransparentMesh: 1
---- !u!114 &1883362398 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6754679499301746428, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-  m_PrefabInstance: {fileID: 6754679497418580642}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5e23017b3677c34aa3bc9ec393c1b8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1960777691
 GameObject:
   m_ObjectHideFlags: 0
@@ -8894,63 +8951,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
---- !u!1001 &6754679497418580642
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746429, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6754679499301746431, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
-      propertyPath: m_Name
-      value: DecisionDistributor
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: deb8a3d9c7078054b85aa815e6a4780b, type: 3}
 --- !u!1001 &6988808693438094875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9397,7 +9397,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1883362398}
+      - m_Target: {fileID: 1478078377}
         m_TargetAssemblyTypeName: UnidosJam.DecisionDistributor, Assembly-CSharp
         m_MethodName: PlayerClickedYesButton
         m_Mode: 1
