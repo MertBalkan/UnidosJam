@@ -18,6 +18,12 @@ namespace UnidosJam
 
         public TextMeshProUGUI Text => text;
 
+        public int MonologueIndex
+        {
+            get => _index;
+            set => _index = value;
+        }
+
         private void Start()
         {
             text.text = string.Empty;
@@ -28,8 +34,9 @@ namespace UnidosJam
         {
             _index = 0;
             _textLines = textLines;
+            text.text = _textLines[_index];
             
-            StartCoroutine(TypeLine());
+            // StartCoroutine(TypeLine());
         }
 
         public void ShowNextDialogue()
@@ -50,11 +57,15 @@ namespace UnidosJam
 
         private IEnumerator TypeLine()
         {
-            foreach (char c in _textLines[_index].ToCharArray())
-            {
-                text.text += c;
-                yield return new WaitForSeconds(textSpeed);
-            }
+            text.text = _textLines[_index];
+            yield break;
+            
+            // foreach (char c in _textLines[_index].ToCharArray())
+            // {
+            //     // text.text += c;
+            //     yield return new WaitForSeconds(textSpeed);
+            // }
+            // yield return new WaitForSeconds(textSpeed);
         }
 
         private void NextLine()

@@ -12,13 +12,16 @@ namespace UnidosJam
         [SerializeField] private Sprite readMailSprite;
         [SerializeField] private DecisionButton[] buttons;
         
+        
         public List<CharacterScriptableObject> characters;
         
         private int _decisionCount = 0;
         private bool _canGoNextDay = false;
+        public bool CanGoNextDayMonologue { get; private set; } = false;
 
         private GeneralTextPanel _generalTextPanel;
-            
+        private NextDayCharacterMonologue _nextDayCharacterMonolog;
+        
         public static DecisionManager Instance { get; private set; }
 
         public int DecisionCount
@@ -45,6 +48,7 @@ namespace UnidosJam
             SingletonObject();
             
             _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
+            _nextDayCharacterMonolog = FindObjectOfType<NextDayCharacterMonologue>();
             buttons = FindObjectsOfType<DecisionButton>();
             
             characters = new List<CharacterScriptableObject>();
@@ -63,7 +67,6 @@ namespace UnidosJam
             }
         }
 
-
         public void PlayerClickYesButton(){
 
             if (characters.Count >= 2)
@@ -71,6 +74,7 @@ namespace UnidosJam
                 CharactersSelected = true;
                 return;
             }
+
 
             _generalTextPanel = FindObjectOfType<GeneralTextPanel>();
 
@@ -91,6 +95,11 @@ namespace UnidosJam
             );
 
             _decisionCount++;
+                
+            if (_decisionCount >= 2)
+            {
+                CanGoNextDayMonologue = true;
+            }
         }
 
         private void Update()
@@ -116,7 +125,11 @@ namespace UnidosJam
 
             if (CanGoNextDay)
             {
-                SoundManager.Instance.PlayYawnSoundEffect();
+                if (CanGoNextDayMonologue)
+                {
+                    _nextDayCharacterMonolog.NothingToDoMonologue();
+                    // CanGoNextDayMonologue = false;
+                }
             }
         }
 

@@ -7,8 +7,10 @@ namespace UnidosJam.UIs
     public class QuitAndGoNextDayButton : MonoBehaviour
     {
         public bool isEndOfTheGameLevel = false; // Do true end of the game
-        private FadeCanvas _fadeCanvas;
 
+        private FadeCanvas _fadeCanvas;
+        [SerializeField] private NextDayCharacterMonologue nextDayCharacterMonologue; 
+        
         private void Awake()
         {
             _fadeCanvas = FindObjectOfType<FadeCanvas>();
@@ -23,13 +25,14 @@ namespace UnidosJam.UIs
                 GameManager.Instance.LoadNextSceneWait();
             }
 
-            try
+            if (!DecisionManager.Instance.CanGoNextDay)
             {
-                Debug.Log(PositiveNegativeManager.Instance.DecisionCount);
+                nextDayCharacterMonologue.ShouldReplyMonologue();
             }
-            catch (Exception e)
+            
+            if (!PositiveNegativeManager.Instance.CanGoNextDay)
             {
-                Console.WriteLine(e);
+                nextDayCharacterMonologue.ShouldReplyMonologue();
             }
             
             if (isEndOfTheGameLevel && PositiveNegativeManager.Instance.DecisionCount >= 2)
