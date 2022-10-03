@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Adrian Delgado
   m_EditorClassIdentifier: 
   characterSettings:
-    characterName: Kekw
+    characterName: Adrian Delgado
     playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
