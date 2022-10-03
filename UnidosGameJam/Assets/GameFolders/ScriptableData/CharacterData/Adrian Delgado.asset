@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 675569c1c7be93143a4eb1ac9a0be648, type: 3}
-  m_Name: Sezo
+  m_Name: Adrian Delgado
   m_EditorClassIdentifier: 
   characterSettings:
-    characterName: Sezo
+    characterName: Kekw
     playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
-      characterPositiveEnding: Sezo + Ending
-      characterNegativeEnding: Sezo - Ending
+      characterPositiveEnding: Kekw + Ending
+      characterNegativeEnding: Kekw - Ending
     characterMails:
-    - {fileID: 11400000, guid: 639fb7628028b8e47a95dc869643a386, type: 2}
-    - {fileID: 11400000, guid: 880d92cf2e8bca342b4dde2f455e3bed, type: 2}
-    - {fileID: 11400000, guid: 68c860bb48c9c544987d660770f0a67a, type: 2}
-    - {fileID: 11400000, guid: 4cb6ca62b6de24642bc3330f0e7a1bc6, type: 2}
-    - {fileID: 11400000, guid: 08d191bcf85919747a5e060cc3f57db3, type: 2}
+    - {fileID: 11400000, guid: 04091ea655943fd40a5f512abb8fc07a, type: 2}
+    - {fileID: 11400000, guid: 52b2da41282f3334aba1da1031b6b9f5, type: 2}
+    - {fileID: 11400000, guid: 705247b48e7a6f74ca42867a6af863eb, type: 2}
+    - {fileID: 11400000, guid: 5f743bd15cd7fb24d926825ff4726c4c, type: 2}
+    - {fileID: 11400000, guid: 5ff6d9f4c1b3eed439d0c9a66a92ec07, type: 2}
     isNotrCharacter: 0
