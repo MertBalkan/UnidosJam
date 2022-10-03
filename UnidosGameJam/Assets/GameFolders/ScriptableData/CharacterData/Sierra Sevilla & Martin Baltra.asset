@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 675569c1c7be93143a4eb1ac9a0be648, type: 3}
-  m_Name: Mert
+  m_Name: Sierra Sevilla & Martin Baltra
   m_EditorClassIdentifier: 
   characterSettings:
-    characterName: Mert
+    characterName: Sierra Sevilla & Martin Baltra
     playerDecisions:
-      positiveAnswers: 1
-      negativeAnswers: 1
+      positiveAnswers: 0
+      negativeAnswers: 0
       characterPositiveEnding: Mert  + Ending
       characterNegativeEnding: Mert - Ending
     characterMails:

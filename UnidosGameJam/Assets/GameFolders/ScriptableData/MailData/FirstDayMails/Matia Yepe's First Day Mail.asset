@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Matia Yepe's First Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
+    mailTitle: 
+    mailDate: Sept. 15.
+    MailText: "Greetings, my name is Matias Yepes and I'm a young but very determined
+      fashion designer. I believe ones best way to express his true self is through
+      fashion and I want to show the rich hispanic herritage to everyone with nicely
+      designed pieces. From camp shirts to gaucho pants, panchos to panama hats everything
+      I design will carry the traces of my true ethnic style. I already have an audience
+      on social media who loves and supports me, with their help I believe I'll be
+      in the legends league in no time. I need $50.000 to achieve my dreams. I hope
+      you see my vision and chose to invest in me.\nSincarely, \nMatias."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: 'Hi matia best, '
+    NegativeAnswerToThisMail: Bb matia

@@ -13,12 +13,37 @@ MonoBehaviour:
   m_Name: Ines Lupita
   m_EditorClassIdentifier: 
   characterSettings:
-    characterName: Fritas
+    characterName: Ines Lupita
     playerDecisions:
-      positiveAnswers: 2
-      negativeAnswers: 2
-      characterPositiveEnding: Fritas + Ending
-      characterNegativeEnding: Fritas - Ending
+      positiveAnswers: 0
+      negativeAnswers: 0
+      characterPositiveEnding: 'Ines has grown her business considerably, the journey
+        she started with candles now continues with many products from home textile
+        to decoration. All bearing the traces of Latinx culture.
+
+
+        It is
+        known as one of the brands that best reflects the the Latin colors.
+
+
+        She
+        opened a store in Los Angeles and ships her products to almost all over the
+        world.
+
+
+        As a young female entrepreneur, she gives speeches at events
+        to inspire young women. She always sends her thanks to you.'
+      characterNegativeEnding: 'Ines was afraid to take risks and she missed the
+        opportunity of expanding her business many times.
+
+
+        She got burnout
+        after a while as she tried to do everything on her own.
+
+
+        She still
+        owns her brand, but no longer enjoys managing it. She is looking for new
+        opportunities in different fields'
     characterMails:
     - {fileID: 11400000, guid: c6854da4bd0d767438960093a072054f, type: 2}
     - {fileID: 11400000, guid: b24d5c19c63b6594b8fc8f8dc23fcf8a, type: 2}

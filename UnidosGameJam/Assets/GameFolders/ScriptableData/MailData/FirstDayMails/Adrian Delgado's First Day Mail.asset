@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Adrian Delgado's First Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
+    mailTitle: 
+    mailDate: Sept. 15.
+    MailText: "Yoo! It's Adri\xE1n Delgado here. I hope you are well. I'm contacting
+      you to talk about my new business plan. Well, it's not really a \"new\" business
+      plan, because I'm reopening my families old restaurant! They were the best
+      in their time. Place is a bit rotten now but I believe in myself and my dream.
+      It will be the best of Puerto Rico again because we make the best Tepache.
+      Not to mention our Enchiladas! It's my family herritage and I'll treat it as
+      my baby by dedicating my whole life to it. The only problem is money right
+      now and Luis told me you can solve that by one click. I need $50.000 for all
+      the renovation and everything but I'm telling you, this place will worth millions
+      when I'm done with it.\nLet me know when you are ready to start.\nCuidate,
+      \nAdri\xE1n"
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Well well well, i like u ma man\t\t\t"
+    NegativeAnswerToThisMail: I hate u bb

@@ -22,8 +22,8 @@ namespace UnidosJam.ScriptableObjects
             public int positiveAnswers;
             public int negativeAnswers;
             
-            public string characterPositiveEnding;
-            public string characterNegativeEnding;
+            [Multiline(25)] public string characterPositiveEnding;
+            [Multiline(25)] public string characterNegativeEnding;
         }
         
         public CharacterStruct characterSettings;
