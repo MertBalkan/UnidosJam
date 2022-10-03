@@ -21,12 +21,6 @@ EditorBuildSettings:
     path: Assets/GameFolders/Scenes/Day3.unity
     guid: 84b43beabde61d442ba9fbe4c75f6317
   - enabled: 1
-    path: Assets/GameFolders/Scenes/Day4.unity
-    guid: 310c2cf7246bc1347994abd9a4cbcd21
-  - enabled: 1
-    path: Assets/GameFolders/Scenes/Day5.unity
-    guid: d4bb93cd0a3dc0745a2f8940ff4d28b9
-  - enabled: 1
     path: Assets/GameFolders/Scenes/GameOver.unity
     guid: 6bb7c60eeb46e7e429792c467ac4f7a5
   m_configObjects: {}

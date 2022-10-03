@@ -30,6 +30,11 @@ namespace UnidosJam
             // AudioListener.pause = _isSoundPlaying;
         }
 
+        private void Update()
+        {
+            UpdateVolume();
+        }
+
         public void ChangeMusic(MusicScriptableObject musicSo)
         {
             _audioSource.clip = musicSo.musicSettings.musicClip;
@@ -70,6 +75,11 @@ namespace UnidosJam
                 soundOnImage.enabled = false;
                 soundOffImage.enabled = true;
             }
+        }
+
+        public void UpdateVolume()
+        {
+            _audioSource.volume = FindObjectOfType<MusicVolumeSlider>().MusicSlider.value;
         }
 
         private void LoadSound()

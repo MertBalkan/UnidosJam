@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using TMPro;
 using UnidosJam.ScriptableObjects;
 using UnityEngine;
@@ -7,6 +8,9 @@ namespace UnidosJam
 {
     public class FirstDayMailPanel : MonoBehaviour
     {
+        [SerializeField] private NameText nameText;
+        [SerializeField] private DateText dateText;
+            
         [SerializeField] private AnswerText answerText;
         [SerializeField] private AnswerText[] otherAnswerTexts;
         
@@ -21,6 +25,7 @@ namespace UnidosJam
         private string _beforeText;
         private GeneralTextPanel _generalTextPanel;
         private MailPanels _mailPanels;
+
 
         public MailInformationScriptableObject MailInformationSo => mailInformationSo;
         public MailAnswersButton MailAnswersButton => mailAnswerButton;
@@ -37,6 +42,15 @@ namespace UnidosJam
             get => thisMailHasBeenRead;
             set => thisMailHasBeenRead = value;
         }
+
+        private void OnEnable()
+        {
+            var mailStruct = mailInformationSo.mailInformationStruct;
+
+            nameText.NameString.text = mailStruct.character.characterSettings.characterName;
+            dateText.DateString.text = mailStruct.mailDate;
+        }
+        
         
         private void Awake()
         {
