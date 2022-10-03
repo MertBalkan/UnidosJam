@@ -13,7 +13,8 @@ namespace UnidosJam
         public string[] nextDayStrings;
 
         public static GameOverManager Instance { get; private set; }
-
+        public string[] NextDayStrings => nextDayStrings;
+        
         private void Awake()
         {
             SingletonObject();

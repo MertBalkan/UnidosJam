@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Matias Yepes
   m_EditorClassIdentifier: 
   characterSettings:
-    characterName: Matias
+    characterName: Matias Yepes
     playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
