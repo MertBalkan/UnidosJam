@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Ines Lupita's Fourth Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 85e064acb07a479418b7911a7c90d3ed, type: 2}
+    mailTitle: 
+    mailDate: 'Dec. 20. '
+    MailText: "Hello, how are you? Hope you are alright. Everything is going well
+      here. Rather than hiring a social media manager, I decided to learn how to
+      do it by myself and signed up for a course. It seems to be going pretty well
+      because my online sales have increased tremendously! Now I have 14 different
+      scents, people love the ones which reminds of them of their childhoods. Lots
+      of people reach out to me and tell me how happy they are with my candles. This
+      is truly gratifying. By the way, have you seen the Latinx daily news? They
+      mentioned us in an article! I was very surprised to see it too. Anyway. I'm
+      going to have a few business meetings this month. Trying to cut a deal to sell
+      my candles in some stores. Wish me luck!  \nBest, \nInes."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hello Ines. I'm always happy when I get good news.
+      Congratulations on the newspaper article! It is admirable that you try to improve
+      yourself in every aspect of your business, and you seem to have succeeded in
+      social media management too. Hmm, maybe I can help you with selling your candles
+      in stores. I'm not making any promises, but I'll try to use some connections.
+      \nBest,"
+    NegativeAnswerToThisMail: 'Hi Ines, just one question: when do you plan to use
+      that $50,000? When I invested in you I thought this money was too much for
+      a candle business, but I still trusted you. So I''m expecting you to use it
+      for the business. From what you''ve said, you still need the help of others
+      to grow your business. I''m not so sure about the decisions you make about
+      your job. Anyway, thanks for keeping me updated at least.'

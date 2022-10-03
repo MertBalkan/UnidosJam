@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnidosJam;
+using UnidosJam.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -63,8 +64,8 @@ public class PositiveNegativeManager : MonoBehaviour
         _generalTextPanel.CurrentMailPanel.MailInformationSo.mailInformationStruct.character.characterSettings
             .playerDecisions.positiveAnswers++;
 
-        _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
-            .playerAnswersToThisMail.PositiveAnswerToThisMail
+        _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "\n\n" + _generalTextPanel.CurrentMailPanel.MailInformationSo
+            .playerAnswersToThisMail.PositiveAnswerToThisMail + "\n" + NameManager.PlayerName
         );
     }
     
@@ -78,11 +79,10 @@ public class PositiveNegativeManager : MonoBehaviour
             .playerDecisions.negativeAnswers++;
             
             
-        _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "  " + _generalTextPanel.CurrentMailPanel.MailInformationSo
-            .playerAnswersToThisMail.NegativeAnswerToThisMail
+        _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "\n\n" + _generalTextPanel.CurrentMailPanel.MailInformationSo
+            .playerAnswersToThisMail.NegativeAnswerToThisMail+ "\n" + NameManager.PlayerName
         );
     }
-    
     
     public void ReadMail()
     {

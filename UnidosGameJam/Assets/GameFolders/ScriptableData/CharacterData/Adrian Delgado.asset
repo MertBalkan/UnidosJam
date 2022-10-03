@@ -17,12 +17,48 @@ MonoBehaviour:
     playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
-      characterPositiveEnding: Kekw + Ending
-      characterNegativeEnding: Kekw - Ending
+      characterPositiveEnding: 'Couple of months after surviving the hurricane, Adrian
+        cured all his wounds and got back on his feet.
+
+
+        He thought about
+        giving up a couple times but he managed to re-open his restaurant once more
+        thanks to the help of his community.
+
+
+        The restaurant had a great
+        success in a short time.
+
+
+        He decided to donate some of his profit
+        to the organisations which help children in needs.
+
+
+        He is grateful
+        to you for giving him a chance and supporting him in difficult times.'
+      characterNegativeEnding: 'Couple of months after surviving the hurricane, Adrian
+        cured all his wounds and got back on his feet.
+
+
+        He thought about
+        giving up a couple times but he managed to re-open his restaurant once more
+        thanks to the help of his community.
+
+
+        The restaurant had a great
+        success in a short time.
+
+
+        He decided to donate some of his profit
+        to the organisations which help children in needs.
+
+
+        He is grateful
+        to you for giving him a chance and supporting him in difficult times.'
     characterMails:
     - {fileID: 11400000, guid: 04091ea655943fd40a5f512abb8fc07a, type: 2}
-    - {fileID: 11400000, guid: 52b2da41282f3334aba1da1031b6b9f5, type: 2}
-    - {fileID: 11400000, guid: 705247b48e7a6f74ca42867a6af863eb, type: 2}
-    - {fileID: 11400000, guid: 5f743bd15cd7fb24d926825ff4726c4c, type: 2}
-    - {fileID: 11400000, guid: 5ff6d9f4c1b3eed439d0c9a66a92ec07, type: 2}
+    - {fileID: 11400000, guid: 2dcd30761e71ddf43ab0c229f399b027, type: 2}
+    - {fileID: 11400000, guid: 2ce34ddf75e86a54581038171648cef3, type: 2}
+    - {fileID: 11400000, guid: 2a2dd65c08c89e2488a5a893aaa176dd, type: 2}
+    - {fileID: 11400000, guid: 0336df084d7edd74d85ba78472045741, type: 2}
     isNotrCharacter: 0

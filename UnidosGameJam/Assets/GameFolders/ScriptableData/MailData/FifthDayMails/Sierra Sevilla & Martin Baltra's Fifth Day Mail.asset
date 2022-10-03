@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Sierra Sevilla & Martin Baltra's Fifth Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
+    mailTitle: 
+    mailDate: 'Jan. 15. '
+    MailText: "Hello, we had some glitches this month. After the hard work we put
+      for the trailer we felt quite exhausted and took things a little slower. Also,
+      one of our teammates' family is in Puerto Rico and it's giving us all a hard
+      time. It was a difficult month in every way. However, I would like to share
+      a few small updates about the game. We're making some content adjustments,
+      lightening it up a bit to get the second trailer released on time. We will
+      do our best to make the game as we imagine it in the full version. We're also
+      looking to expand our team after the trailer, we need to power up our production
+      for the demo. That's it for the month. \nThanks, \nSierra."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hi Sierra. I'm sorry for your teammate's family, if
+      there's anything I can do, just let me know. I trust you with the decisions
+      regarding the development of the game because so far you have not failed me.
+      Every project falls behind the schedule time to time, the important thing is
+      to get it back on track. Just like you did before and I know you can do it
+      again. Thank you for informing me. \nBest,"
+    NegativeAnswerToThisMail: Hi Sierra. I'm neither disappointed nor surprised.
+      It's been four months and this is not the first setback. I think I should get
+      used to it. I'm sorry  for your teammates family, I really am, but it's your
+      job to keep things in order. You cannot blame your team or their problems when
+      you can't make progress. This money was handed to you, meaning you are responsible
+      from everything, not them. Your bad leadership will cause this business to
+      fail if you dont get yourself together. Don't tell me I didn't warn you.

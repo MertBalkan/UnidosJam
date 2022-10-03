@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Ines Lupita's Third Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 85e064acb07a479418b7911a7c90d3ed, type: 2}
+    mailTitle: 
+    mailDate: 'Nov. 26. '
+    MailText: "Hello, this month wasn't easy but I managed to cross out all the tasks
+      on my list. Firstly, I got all the licenses needed for my business. This means
+      my candles are ready to be lit! So I can say I did a good job getting all the
+      branding ready for the website earlier, which is on and going right now. I
+      even made my first sale. Planning to add new products to the website this month
+      and I'm currently trying to find a social media manager to reach out more people.
+      I do everything on my own for now, but it is okay. This is all so exciting.
+      \nBest,\nInes."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: Hello Ines, I'm so happy to hear everything is going
+      as you planned. Congratulations on your first sale! I think I should order
+      one too, I'm sure they are all great. Keep up the good work! Best,
+    NegativeAnswerToThisMail: 'Hello Ines. I''m relieved that you finally got the
+      licenses, my investment would have been wasted otherwise. Good to hear that
+      you finally started making money. Also, do you really need a social media manager?
+      I mean, it''s a candle business after all, you must have some free time to
+      manage your social media accounts. I''d prefer you to use my money wisely. '

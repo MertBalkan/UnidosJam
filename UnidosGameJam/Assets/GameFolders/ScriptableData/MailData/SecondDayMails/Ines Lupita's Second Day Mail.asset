@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Ines Lupita's Second Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 85e064acb07a479418b7911a7c90d3ed, type: 2}
+    mailTitle: 
+    mailDate: Oct. 27.
+    MailText: "Hello! This is my first monthly update email and I already have a
+      lot to tell you! My candle business now has a logo and I'm currently getting
+      required licences for my candles proving they are a sustainable, vegan and
+      obviously, not harmful to health. I believe it will go smoothly. I'm also looking
+      to add  new scents like Con Leche and Az\xFAcar to my collection. I believe
+      this will take some time before I fully launch my business and start selling
+      candles online, but I'm not giving up. By the way, did I thank you enough for
+      supporting me on this? If not, I should say I appreciate your support. \nBest,
+      \nInes."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hello! \nIt's great to hear that you have started
+      working and already made some progress. I think at this point there is nothing
+      much for me to say, but do let me know if you need any support. And, no need
+      to thank me, I'm glad to be a part of this journey.\nSincerely, "
+    NegativeAnswerToThisMail: 'Hello,
+
+      Good to hear from you. Just got one
+      question popped into my head, I thought you already got the proper licensing
+      for this business and it seems like I was wrong. This should have been more
+      important then getting a new logo, since there is no business here yet needing
+      a logo. Maybe you should set your priorities right.'

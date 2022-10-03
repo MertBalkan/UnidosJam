@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Adrian Delgado's Third Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
+    mailTitle: 
+    mailDate: 'Nov. 26. '
+    MailText: "Hey boss! How is everything going? Me? Estoy muy bien!! I found a
+      place for my restaurant, it's located on a very popular street near seaside.
+      It costs me a bit but restaurant is open now so money is on it's way. Not coming
+      fast, but it is coming. I run over the menu with my father, he's a great cook
+      but he's too old to get back in kitchen now. He's so happy to see I'm restarting
+      my family business. Anyway, since now I have a bigger place and an old father,
+      I will need more staff. I'm on a cook hunt! Jajaja. You should come teste our
+      Tamales! Everyone loves it! Anyway, see you later! \nAdri\xE1n."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hey Adri\xE1n, Congradulations on opening your restaurant.
+      It's the start of a dream, ha? I knew you could pull this off. I can't wait
+      to visit your restaurant, maybe not anytime soon but one day! Good luck on
+      finding new staff members and let me know if is there anything I can do to
+      help. Please send your father my best wishes. \nSincerely, "
+    NegativeAnswerToThisMail: "Hello Adri\xE1n. You found a strange way of telling
+      me that you haven't made any profit yet. Congratulations on finally opening
+      the restaurant, although I didn't like you renting an overpriced place without
+      consulting it with me first. Since I'm the one who's funding this whole business,
+      I think I should know where my money goes. Hope you find a decent cook."

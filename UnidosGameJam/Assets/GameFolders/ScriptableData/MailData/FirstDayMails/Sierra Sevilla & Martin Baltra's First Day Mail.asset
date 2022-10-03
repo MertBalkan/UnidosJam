@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Sierra Sevilla & Martin Baltra's First Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
+    mailTitle: 
+    mailDate: Sept. 15.
+    MailText: "Hello, I'm Sierra Sevilla, a former multidisciplinary designer and
+      architect who has switched her career into game design. I'm contacting you
+      regarding a game project we are working on with my friend Mart\xEDn Baltra.
+      We joined Unidos Hispanic Heritage Month Jam last year and the jam theme was
+      \"supporting others\" We made a game about showing how a genuine support one
+      gives to others make a change. We would like to continue working on this project
+      to release a full version. In order to bring this project to life, we need
+      to expand our team and $50,000 will be enough for all the expenses. Hope you
+      choose to support us. Best, \nSierra"
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hi merto\t\t"
+    NegativeAnswerToThisMail: 'Bb merto
+
+'

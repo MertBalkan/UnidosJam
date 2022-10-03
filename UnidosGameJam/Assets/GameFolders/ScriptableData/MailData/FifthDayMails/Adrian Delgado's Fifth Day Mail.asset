@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Adrian Delgado's Fifth Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
+    mailTitle: 
+    mailDate: 'Jan. 15. '
+    MailText: It's gone. Everything I've built.
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Adri\xE1n, I was so worried about you. Where are you?
+      Do not worry about the restaurant, we will get through this together. You won't
+      be left alone... Please be safe."
+    NegativeAnswerToThisMail: "[Game designer won't let you be a j*rk this time.
+      So here is the positive answer] Adri\xE1n, I was so worried about you. Where
+      are you? Do not worry about the restaurant, we will get through this together.
+      You won't be left alone... Please be safe."

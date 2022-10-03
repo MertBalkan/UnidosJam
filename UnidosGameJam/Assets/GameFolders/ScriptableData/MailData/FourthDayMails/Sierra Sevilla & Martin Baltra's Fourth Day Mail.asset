@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Sierra Sevilla & Martin Baltra's Fourth Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
+    mailTitle: 
+    mailDate: 'Dec. 20. '
+    MailText: 'Hello. I''m thrilled to share the news, but maybe you already know
+      it this time! Have you seen the Latinx Daily News? We are there! We weren''t
+      sure if we''d make it either, but we managed to release the trailer in time.
+      The whole team is very happy about it. We have already started to get great
+      feedbacks and build a community of our game. I think it will be easier after
+      this step! This is a milestone and we''ve reached it. Now we will continue
+      to work hard and release a larger trailer in a few months to bring the game
+      to a wide audience. I hope you like our trailer, you can watch it on our site.
+      By the way, I''m trying to use the money you gave us sparingly, but it looks
+      like we''re going to need more in the future. When the time comes, I wanted
+      to ask if you would consider supporting us in this matter.
+
+      Thank you.'
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hi Sierra. I knew you could do it, but are you already
+      on the news? Wow. Congratulations on publishing your first trailer. I haven't
+      seen it yet, but I will for sure. I must say that I am very impressed with
+      your passion for this work and I believe that it will pay off. It's going great
+      so far. I think you should all take some time to sit back and enjoy this success
+      before you get back to work.\_Don't worry about money, I believe in this project
+      and will continue to support you.\nBest, "
+    NegativeAnswerToThisMail: Hello. I really didn't believe you could get this trailer
+      released on time so I must admit I am a little surprised. Congratulations.
+      But you still have a lot to do so don't let this "success" relieve you too
+      much. Maybe now you can actually start developing the game instead of dealing
+      with another trailer?  Also, a few months ago you said that $50,000 would be
+      enough for all your expenses, and I gave it to you. You have to find different
+      ways to  sustain this business, because I can't give you money every time you
+      ask for it.

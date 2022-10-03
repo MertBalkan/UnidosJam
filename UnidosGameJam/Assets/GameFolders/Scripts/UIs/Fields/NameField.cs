@@ -8,6 +8,8 @@ namespace UnidosJam
     public class NameField : MonoBehaviour
     {
         private readonly string _noName = "Investor";
+
+        [SerializeField] private GameObject confirmButton;
         
         private FadeCanvas _fadeCanvas;
 
@@ -24,6 +26,8 @@ namespace UnidosJam
             _fadeCanvas.StartFade();
             
             GameManager.Instance.LoadNextSceneWait();
+            
+            confirmButton.SetActive(false);
             Debug.Log(NameManager.PlayerName);
         }
     }

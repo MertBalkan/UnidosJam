@@ -17,12 +17,23 @@ MonoBehaviour:
     playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
-      characterPositiveEnding: Mert  + Ending
-      characterNegativeEnding: Mert - Ending
+      characterPositiveEnding: "After a grueling marathon, Mart\xEDn and Sierra finally
+        published their first game.\n\nThe game  received great acclaim around the
+        world.\n\nThey think they will win the Best Independent Game award at The
+        Game Awards.\n\nThey have already started working on their new game.\n\nThey
+        also started to organize free local workshops to share their experiences
+        and grow the latinx game industry."
+      characterNegativeEnding: "Mart\xEDn and Sierra were unable to cope with the
+        stress they experienced and were not able to release their game at the time
+        they promised.\n\nThe community they gathered after the successful trailer
+        they released gave up hope and gradually started to abandon them.\n\nThey
+        are still trying to release a short version of the game but they are having
+        a hard time continuing the project because of economic reasons.\n\nThey wish
+        they have never started this business."
     characterMails:
     - {fileID: 11400000, guid: bb20b8f305f7f1647a120dd65d34d59a, type: 2}
-    - {fileID: 11400000, guid: 0d9bf23a3761a13499e1c89b681f149a, type: 2}
-    - {fileID: 11400000, guid: 4f457fa19f422bb44bd4c509407bcdbd, type: 2}
-    - {fileID: 11400000, guid: 975b005acdb143a4483bab58e3e469eb, type: 2}
-    - {fileID: 11400000, guid: d6dba2c6817b545428927bf0c9f634e0, type: 2}
+    - {fileID: 11400000, guid: 807b5ca88170ba14f98c6c2542e87963, type: 2}
+    - {fileID: 11400000, guid: 660fe4b9472bbed4c9c9990b41b318e7, type: 2}
+    - {fileID: 11400000, guid: 931c6e4e0d607b14a804af38d6344394, type: 2}
+    - {fileID: 11400000, guid: a8e9ab0beec1b424b9682249388b6234, type: 2}
     isNotrCharacter: 0

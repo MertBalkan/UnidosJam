@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Sierra Sevilla & Martin Baltra's Second Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
+    mailTitle: 
+    mailDate: 'Oct. 27. '
+    MailText: "Hi, hope you are doing well. I'd like to inform you that Mart\xEDn
+      and I have started working on our project planning. We were supposed to deliver
+      a finished game design document this month but my cat got very sick and Mart\xEDn
+      was having power and internet outages. He's very upset about it... Anyway,
+      I wanted to let you know that we had some small-ish problems which caused us
+      to fall behind the schedule a bit this month. We are doing everything we can
+      to get back on track, do not worry. I'm hoping to give you better news next
+      month.\nBest, \nSierra."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hello Sierra,\nI'm very sorry to hear about your cat.
+      Also for Mart\xEDn, because I know how it feels to be cut out from world by
+      such problems.\_ Makes it very hard to get things done. So do not worry about
+      the game design document, I believe you both did your best to finish it on
+      time. Sometimes life gets in the way. Hope everything turns out for you both
+      soon. Let me know if there is anything I can do to help.\nSincarely,"
+    NegativeAnswerToThisMail: 'Hello Sierra,
+
+      Thanks for informing me about
+      your progress, which doesn''t exist. It''s a bummer that you both have some
+      personal problems this month, but things never get done by themselves. You
+      both need to figure out how to menage this business because so far, all I hear
+      is excuses.
+
+'

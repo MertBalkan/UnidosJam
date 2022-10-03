@@ -79,7 +79,10 @@ namespace UnidosJam
 
         public void UpdateVolume()
         {
-            _audioSource.volume = FindObjectOfType<MusicVolumeSlider>().MusicSlider.value;
+            var musicSlider = FindObjectOfType<MusicVolumeSlider>();
+            
+            if (musicSlider != null)
+                _audioSource.volume = musicSlider.MusicSlider.value;
         }
 
         private void LoadSound()

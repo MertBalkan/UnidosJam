@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Ines Lupita's Fifth Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 85e064acb07a479418b7911a7c90d3ed, type: 2}
+    mailTitle: 
+    mailDate: 'Jan. 15. '
+    MailText: Hello, I got a call from a big home decorations brand this week, they
+      said they liked my products very much and they offered me a partnership for
+      a project. Did you set this up? If so, thank you very much! They said that
+      after the deal, my candles will be available in many stores. I think I'll consider
+      it.  Candles have been a part of my life for as long as I can remember. I don't
+      want to give up on making candles, but I learned a lot as an entrepreneur in
+      the last couple of months and I think it's time to take some risks to grow.
+      I will keep you informed. Thanks again.
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: Hello Ines. I may or may not have anything to do with
+      this. I guess you'll never know! This is your business, you make the decisions,
+      all I can say that it was a lot of fun to witness your journey from the beginning.
+      You did a great job in a very short time! so if you think it's time, it's time.
+    NegativeAnswerToThisMail: Hello Ines. I have nothing to do with the people who
+      called you. Are you sure about this? When large companies seek partnerships
+      with such small businesses, they look after their own interests first. I don't
+      think it will be very profitable for you. Besides, why would you need them?
+      I have supported you enough from the beginning and I believed you could do
+      it yourself.  Anyway, make this decision if you can bear the consequences.
+      I won't be helping you if this fails.

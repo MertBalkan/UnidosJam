@@ -106,7 +106,7 @@ namespace UnidosJam
         public void CurrentDetails()
         {
             var mailStruct = mailInformationSo.mailInformationStruct;
-            _beforeText = "\n" + "From: " + mailStruct.character.characterSettings.characterName + " -" + "\t" +
+            _beforeText = "\n" + "From: " + mailStruct.character.characterSettings.characterName + "\t" +
                           mailStruct.mailTitle + "\t" +
                          "\n" + "\n" +
                           "" + mailInformationSo.mailInformationStruct.MailText + "\n";

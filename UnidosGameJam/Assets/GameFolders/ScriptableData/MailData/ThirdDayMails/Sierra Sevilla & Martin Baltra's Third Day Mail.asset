@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Sierra Sevilla & Martin Baltra's Third Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
+    mailTitle: 
+    mailDate: 'Nov. 26. '
+    MailText: "Hi, hope you are doing well. I'd like to inform you that Mart\xEDn
+      and I have started working on our project planning. We were supposed to deliver
+      a finished game design document this month but my cat got very sick and Mart\xEDn
+      was having power and internet outages. He's very upset about it... Anyway,
+      I wanted to let you know that we had some small-ish problems which caused us
+      to fall behind the schedule a bit this month. We are doing everything we can
+      to get back on track, do not worry. I'm hoping to give you better news next
+      month.\nBest, \nSierra."
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hi Sierra. Thank you for letting me know about the
+      progress. I'm so glad that everything worked out on your end. Growing the team
+      seems like the right decision, I'm sure your new teammate will do great things.
+      I can't wait to see your trailer. Keep up the good work! \nBest,"
+    NegativeAnswerToThisMail: Hello. You've finally made some progress. The fact
+      that you have spent so much time on the game design document is a significant
+      waste of time, if you ask me, you are still far behind your schedule. It's
+      good to be so positive only when it's realistic. Hoping your new teammate is
+      better than you on keeping promises. I can say that I want to see that trailer
+      as soon as possible. So you make sure you're working hard, otherwise this business
+      won't last long.

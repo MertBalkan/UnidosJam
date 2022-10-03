@@ -17,12 +17,38 @@ MonoBehaviour:
     playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0
-      characterPositiveEnding: Matias + Ending
-      characterNegativeEnding: Matias - Ending
+      characterPositiveEnding: 'Matias is recognized and loved by a wide audience
+        thanks to his unique designs reflecting the Latin culture.
+
+
+        He is
+        described by many fashion magazines as the most promising young designer
+        in the fashion world.
+
+
+        He is preparing to open his first store in
+        Europe.
+
+
+
+        He set up a fund to help young children who do not have
+        access to education. Thanks to his reputation in the fashion world, he is
+        running a very successful campaign.'
+      characterNegativeEnding: 'Matias could not go beyond being a social media celebrity
+        who is over sensitive about criticism.
+
+
+        Although his designs were
+        liked by many, he was afraid to take big risks and could not expand his business
+        plan.
+
+
+        He is waiting for the day when someone will discover his
+        talent and help him on his way to become a great designer'
     characterMails:
     - {fileID: 11400000, guid: 900b7f74c9a33204285336c7d6b806c0, type: 2}
-    - {fileID: 11400000, guid: 81a2d1d224629df409cf23138934d285, type: 2}
-    - {fileID: 11400000, guid: ee100ffc64da4d14aa96b3d19ac2a6f4, type: 2}
-    - {fileID: 11400000, guid: d88998bf2da67ae43b4618dd8473bbb2, type: 2}
-    - {fileID: 11400000, guid: cc7ebbb993113be49876437487ebe1f0, type: 2}
+    - {fileID: 11400000, guid: 13f32b851f4723841a08e3f07abc561a, type: 2}
+    - {fileID: 11400000, guid: f154d68ae143ba3429de6b15abe33a8e, type: 2}
+    - {fileID: 11400000, guid: 013b8a3b297f6384e9bb8b937f6ba212, type: 2}
+    - {fileID: 11400000, guid: 891f0245af42c4544a3da529ec5ecd42, type: 2}
     isNotrCharacter: 1

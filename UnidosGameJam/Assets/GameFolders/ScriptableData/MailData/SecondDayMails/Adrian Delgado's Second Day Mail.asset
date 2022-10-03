@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f759ff9a85b622a4083c6f65ae4b002e, type: 3}
+  m_Name: Adrian Delgado's Second Day Mail
+  m_EditorClassIdentifier: 
+  mailInformationStruct:
+    character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
+    mailTitle: 
+    mailDate: Oct. 27.
+    MailText: "Hola! How are you? I have a good and a bad news. Bad news first, the
+      \"rotten place\" I told you about turned out to be rotten for real and apparently
+      I can't open the restaurant there. And the good news is this didn't make me
+      quit! Jajaja.  I've been busy looking for a new place all month but I couldn't
+      find the right spot yet. Maybe because I couldn't find the right commercial
+      agent yet. But don't worry, I've got this. Anyway, talk later. \nAdri\xE1n"
+  playerAnswersToThisMail:
+    PositiveAnswerToThisMail: "Hello Adri\xE1n!\nI must admit you have a good sense
+      of humor. I don't mind small set backs, it happens in any business. I also
+      have good news for you, I'll have one of my friends get in contact with you
+      about this issue and I think she can find you the place you are looking for.
+      No worries. Sincerely, "
+    NegativeAnswerToThisMail: 'Hello Adrian.
+
+      Thanks for informing me about
+      your situation but I was expecting more from you. You are saying you wasted
+      a month and I don''t find this funny. I invested in your business thinking
+      that you could actually manage to pull it off but I''m having second thoughts
+      already.'
