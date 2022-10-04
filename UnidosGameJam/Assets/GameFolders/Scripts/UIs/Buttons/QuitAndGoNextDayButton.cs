@@ -39,6 +39,7 @@ namespace UnidosJam.UIs
             if (isEndOfTheGameLevel && PositiveNegativeManager.Instance.DecisionCount >= 2)
             {
                 _fadeCanvas.StartFade();
+                gameObject.SetActive(false);
                 GameOverManager.Instance.PrintCharacterStatusToEndOfLevel();
             }
 
