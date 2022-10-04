@@ -14,9 +14,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assistantMessageOptions:
     assistantDialogues:
-    - 'Louis: This is first text from assistant 3'
-    - 'You: This is my first answer as a Player 3'
-    - 'Louis: This is second text from assistant 3'
-    - 'You: This is my second  answer as a Player 3'
+    - 'Unknown number: Coco will come and eat you
+
+'
+    - 'You: ???
+
+'
+    - 'Unknown number: Coco will come and eat you
+
+'
+    - 'You: who is this?
+
+'
+    - 'Unknown number: El coco...
+
+'
+    - 'You: KEKW
+
+'
+    - 'Unknown number: You are a bad child. Coco will come and eat you
+
+'
+    - 'You: What kind of joke is this? What do you want?
+
+'
+    - 'Unknown number: You made bad decisions.
+
+'
+    - 'You: What bad decisions?
+
+'
+    - 'Unknown number: You invested in the wrong people. coco will come and eat you.
+
+'
+    - 'You: It''s a really bad joke.
+
+'
+    - 'Unknown number: You burst my bubble. You should have chosen me. Coco will
+      come and eat you.
+
+'
+    - 'You: Looks like I made the right choices.
+
+'
+    - 'Unknown number: Coco will come and eat you tonight.
+
+'
+    - 'You: That''s enough. I''m blocking you.
+
+'
+    - 'Unknown number: Wait...
+
+'
+    - 'You: What?
+
+'
+    - 'Unknown number: Coco will come and eat you!
+
+'
+    - '[ Blocked ]'
     textSpeed: 0.05
-    gameDay: 0
