@@ -14,9 +14,60 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assistantMessageOptions:
     assistantDialogues:
-    - 'Louis: This is first text from assistant 4'
-    - 'You: This is my first answer as a Player 4'
-    - 'Louis: This is second text from assistant 4'
-    - 'You: This is my second  answer as a Player 4  '
+    - 'Luis: Hey, how about you come to ours on the 24th?
+
+'
+    - 'You: Hey Luis, are you inviting me for Nochebuena?
+
+'
+    - 'Luis: Yeah, well, my mom actually invites you. She hasn''t seen you in a long
+      time.
+
+'
+    - 'You: How nice of her.. I usually spend that time of the year alone.
+
+'
+    - 'Luis: No one should spend Nochebuena alone!
+
+'
+    - 'You: You know...
+
+'
+    - 'Luis: Yes, I know. But as I said, we will be very happy if you come. Also,
+      you know, my mom makes amazing pernil!
+
+'
+    - 'You: What else?
+
+'
+    - 'Luis: Do I have to give you the whole menu to convince you? jajajaja
+
+'
+    - 'You: I don''t know, maybe it works?
+
+'
+    - 'Luis: Jajaja okay, we''ll probably have tamales, morcilla, bacalao, pozole, 
+      arroz con leche on the menu and drink coquito along with other things. I don''t
+      know much about the rest either!
+
+'
+    - 'You: Will there be Dominoes too?
+
+'
+    - 'Luis: Along with a lot of dance and music...
+
+'
+    - 'You: Sounds good.
+
+'
+    - 'Luis: So you''re coming?
+
+'
+    - 'You: I wouldn''t have missed it anyway! Thank you for inviting me.
+
+'
+    - 'Luis: Of course! See you then!
+
+'
+    - 'You: See you!'
     textSpeed: 0.05
-    gameDay: 0

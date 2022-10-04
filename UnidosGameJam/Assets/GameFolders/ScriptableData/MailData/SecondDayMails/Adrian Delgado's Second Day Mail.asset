@@ -15,7 +15,7 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
     mailTitle: 
-    mailDate: Oct. 27.
+    mailDate: Oct. 26.
     MailText: "Hola! How are you? I have a good and a bad news. Bad news first, the
       \"rotten place\" I told you about turned out to be rotten for real and apparently
       I can't open the restaurant there. And the good news is this didn't make me

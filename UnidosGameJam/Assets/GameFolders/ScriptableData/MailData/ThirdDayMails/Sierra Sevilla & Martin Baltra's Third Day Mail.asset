@@ -15,7 +15,7 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
     mailTitle: 
-    mailDate: 'Nov. 26. '
+    mailDate: 'Nov. 24. '
     MailText: "Hi, hope you are doing well. I'd like to inform you that Mart\xEDn
       and I have started working on our project planning. We were supposed to deliver
       a finished game design document this month but my cat got very sick and Mart\xEDn

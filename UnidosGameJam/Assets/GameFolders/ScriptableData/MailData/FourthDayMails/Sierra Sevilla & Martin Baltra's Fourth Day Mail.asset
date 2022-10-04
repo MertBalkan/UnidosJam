@@ -15,7 +15,7 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
     mailTitle: 
-    mailDate: 'Dec. 20. '
+    mailDate: 'Dec. 19. '
     MailText: 'Hello. I''m thrilled to share the news, but maybe you already know
       it this time! Have you seen the Latinx Daily News? We are there! We weren''t
       sure if we''d make it either, but we managed to release the trailer in time.

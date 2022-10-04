@@ -15,7 +15,7 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: 85e064acb07a479418b7911a7c90d3ed, type: 2}
     mailTitle: 
-    mailDate: 'Jan. 15. '
+    mailDate: 'Jan. 14. '
     MailText: Hello, I got a call from a big home decorations brand this week, they
       said they liked my products very much and they offered me a partnership for
       a project. Did you set this up? If so, thank you very much! They said that

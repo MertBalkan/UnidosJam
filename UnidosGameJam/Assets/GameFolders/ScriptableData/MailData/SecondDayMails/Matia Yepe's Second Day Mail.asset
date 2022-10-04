@@ -15,7 +15,7 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
     mailTitle: 
-    mailDate: Oct. 27.
+    mailDate: Oct. 25.
     MailText: 'Hello there!
 
       You are about to find out that you made the right

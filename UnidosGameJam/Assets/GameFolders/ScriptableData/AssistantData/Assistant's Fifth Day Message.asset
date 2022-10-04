@@ -60,5 +60,5 @@ MonoBehaviour:
     - 'Luis: No problem. I''ll send you the list in a bit.
 
 '
-    - Talk to you later.
+    - 'You: Talk to you later.'
     textSpeed: 0.05

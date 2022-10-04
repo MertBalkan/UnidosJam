@@ -15,8 +15,8 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
     mailTitle: 
-    mailDate: 'Dec. 20. '
-    MailText: "Hello boss.\nEverything is going very well. Someone famous came to
+    mailDate: 'Dec. 19. '
+    MailText: "Hello boss. Everything is going very well. Someone famous came to
       the restaurant this month, I really don't know who it is. But he shared a story
       on the internet that saying food here is very good. The whole place is packed
       now! We are really having a hard time keeping up with orders. We got new employees

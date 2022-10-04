@@ -15,7 +15,7 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
     mailTitle: 
-    mailDate: 'Jan. 15. '
+    mailDate: 'Jan. 12. '
     MailText: "Hello, we had some glitches this month. After the hard work we put
       for the trailer we felt quite exhausted and took things a little slower. Also,
       one of our teammates' family is in Puerto Rico and it's giving us all a hard

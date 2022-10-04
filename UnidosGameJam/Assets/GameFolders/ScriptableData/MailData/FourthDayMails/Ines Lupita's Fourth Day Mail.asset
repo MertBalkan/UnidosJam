@@ -15,7 +15,7 @@ MonoBehaviour:
   mailInformationStruct:
     character: {fileID: 11400000, guid: 85e064acb07a479418b7911a7c90d3ed, type: 2}
     mailTitle: 
-    mailDate: 'Dec. 20. '
+    mailDate: 'Dec. 18. '
     MailText: "Hello, how are you? Hope you are alright. Everything is going well
       here. Rather than hiring a social media manager, I decided to learn how to
       do it by myself and signed up for a course. It seems to be going pretty well
