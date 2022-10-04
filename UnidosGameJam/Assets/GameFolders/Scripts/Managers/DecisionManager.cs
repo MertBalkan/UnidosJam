@@ -91,7 +91,7 @@ namespace UnidosJam
             }
 
             _generalTextPanel.CurrentMailPanel.SetAnswer("\n\n" + _generalTextPanel.CurrentMailPanel.MailInformationSo
-                .playerAnswersToThisMail.PositiveAnswerToThisMail + "\n" + NameManager.PlayerName
+                .playerAnswersToThisMail.PositiveAnswerToThisMail + "\n"
             );
 
             _decisionCount++;

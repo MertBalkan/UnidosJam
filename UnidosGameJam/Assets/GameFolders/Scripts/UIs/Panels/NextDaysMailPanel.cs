@@ -113,10 +113,9 @@ namespace UnidosJam
         {
             var mailStruct = characterScriptableObject.characterSettings.characterMails[GameManager.Instance.CurrentDayCount];
             
-            _beforeText = "\t" + mailStruct.mailInformationStruct.character.characterSettings.characterName + "\t" +
+            _beforeText = "From: " + mailStruct.mailInformationStruct.character.characterSettings.characterName + "\t" +
                           mailStruct.mailInformationStruct.mailTitle + "\t" +
-                          "\n" + "\n" +
-                          "  " +mailStruct.mailInformationStruct.MailText + "\n";
+                          "\n" + "\n" + mailStruct.mailInformationStruct.MailText + "\n";
             
             testText.GetComponent<TextMeshProUGUI>().text = _beforeText;
         }
