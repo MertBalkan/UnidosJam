@@ -2927,17 +2927,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f5839115f72c6249a44a199d7f418fd, type: 3}
---- !u!114 &606379476 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6599466060653264998, guid: 300fe2e21fedef643ad269b1bf74c9bc, type: 3}
-  m_PrefabInstance: {fileID: 6599466060046966194}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7407b88fcb35495498e9829dbdb5fea4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -5843,6 +5832,74 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5e23017b3677c34aa3bc9ec393c1b8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1486122080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5021770272044892377, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_Name
+      value: PanelDistributor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5021770272044892379, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+--- !u!114 &1486122081 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5021770272044892376, guid: 4e0b2422f4117e24999f683a80ebdaed, type: 3}
+  m_PrefabInstance: {fileID: 1486122080}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1266c5add7d6d2f4f99acb2cbd628048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1488091898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6705,7 +6762,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 322d6264dd00e4b4984dbfbe758d3c5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca56db80423d24c4a9f75d425eded231, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_FlipX: 0
   m_FlipY: 0
@@ -8247,8 +8304,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
-        m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
+      - m_Target: {fileID: 1486122081}
+        m_TargetAssemblyTypeName: UnidosJam.PanelDistributor, Assembly-CSharp
         m_MethodName: ReadMail
         m_Mode: 1
         m_Arguments:
@@ -8327,8 +8384,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 606379476}
-        m_TargetAssemblyTypeName: PositiveNegativeManager, Assembly-CSharp
+      - m_Target: {fileID: 1486122081}
+        m_TargetAssemblyTypeName: UnidosJam.PanelDistributor, Assembly-CSharp
         m_MethodName: ReadMail
         m_Mode: 1
         m_Arguments:

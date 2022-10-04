@@ -9746,15 +9746,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3253205800070085472, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3253205800070085472, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3253205800070085472, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7100228978378372874, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_Name
@@ -9915,6 +9915,10 @@ PrefabInstance:
     - target: {fileID: 7100228978664516040, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100228978742425773, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7100228978742425775, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_Sprite
@@ -10162,11 +10166,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7556678333808269431, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7556678333808269431, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f836f18fd1e72264fb34cf74bb778bde, type: 3}
