@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 namespace UnidosJam.UIs
 {
-    public class QuitAndGoNextDayButton : MonoBehaviour
+    public class FirstDayQuitAndGoNextDayButton : MonoBehaviour
     {
         public bool isEndOfTheGameLevel = false; // Do true end of the game
 
@@ -28,7 +28,7 @@ namespace UnidosJam.UIs
 
             if (!DecisionManager.Instance.CanGoNextDay)
             {
-                // nextDayCharacterMonologue.ShouldReplyMonologue();
+                nextDayCharacterMonologue.ShouldReplyMonologue();
             }
             
             if (!PositiveNegativeManager.Instance.CanGoNextDay)

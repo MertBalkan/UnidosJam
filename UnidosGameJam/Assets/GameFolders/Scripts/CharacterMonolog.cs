@@ -27,23 +27,11 @@ namespace UnidosJam
         {
             dialogue.StartDialogue(monologScriptableObjects[0].monologData.monologTexts.ToArray());
         }
-
-        private IEnumerator NothingToDoMonologueAsync()
-        {
-            NothingToDoMonologue();
-            yield return new WaitForSeconds(4.0f);
-            monologueBox.gameObject.SetActive(false);
-        }
         
         public void NothingToDoMonologue()
         {
             dialogue.StartDialogue(monologScriptableObjects[1].monologData.monologTexts.ToArray());
         }
         
-        
-        public void ShouldReplyMonologue()
-        {
-            dialogue.StartDialogue(monologScriptableObjects[2].monologData.monologTexts.ToArray());
-        }
     }   
 }
