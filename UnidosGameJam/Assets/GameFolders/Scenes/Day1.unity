@@ -1749,7 +1749,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d2725efdc45d9394d9c234c49596341e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5661,8 +5661,8 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 359.99997
-  m_PointLightOuterAngle: 359.99997
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 7.561228
   m_PointLightOuterRadius: 15.920935
   m_ShapeLightParametricSides: 5
@@ -5682,14 +5682,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401146271}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9192883, w: -0.39358497}
+  m_LocalRotation: {x: -0, y: -0, z: 0.983091, w: 0.18311793}
   m_LocalPosition: {x: 6.58, y: 2.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -201.103}
 --- !u!1 &1403041993
 GameObject:
   m_ObjectHideFlags: 0
@@ -6208,7 +6208,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a2894cae949a8c0489f1d1780fc2d3f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10981,11 +10981,11 @@ PrefabInstance:
       objectReference: {fileID: 1276346751}
     - target: {fileID: 8954521547680058375, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2347.42
+      value: 3260.11
       objectReference: {fileID: 0}
     - target: {fileID: 8954521547680058375, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -904.5356
+      value: -1360.88
       objectReference: {fileID: 0}
     - target: {fileID: 8954521547876128694, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: mailPanels
@@ -11125,11 +11125,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.7706631
+      value: 0.83486754
       objectReference: {fileID: 0}
     - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 9.1
+      value: 7.3989
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -9.67
       objectReference: {fileID: 0}
     - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_LocalScale.x
@@ -11141,7 +11145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2.73
+      value: -3.5538
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.0176
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}

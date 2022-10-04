@@ -4400,6 +4400,14 @@ PrefabInstance:
       propertyPath: buttonUI
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8954521547680058375, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3260.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521547680058375, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1360.88
+      objectReference: {fileID: 0}
     - target: {fileID: 8954521548026755170, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_ScrollSensitivity
       value: 30
@@ -4522,7 +4530,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.4752003
+      value: 0.83486754
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 27.654999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.1725006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}

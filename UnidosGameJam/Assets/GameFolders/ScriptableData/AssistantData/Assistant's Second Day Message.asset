@@ -15,31 +15,70 @@ MonoBehaviour:
   assistantMessageOptions:
     assistantDialogues:
     - 'Luis: Dia de los Muertos list; Pan de muertos bread, flor de muertos, papel
-      picado, copal incense, a cross, talavera pitcher, candles, calaveras.'
-    - 'You: sorry?'
-    - 'Luis: oh sorry, I sent the message to the wrong person!'
-    - 'You: Are you getting ready for the day of the dead?'
-    - 'Luis: Yeah, is it that obvious? jajaja'
+      picado, copal incense, a cross, talavera pitcher, candles, calaveras.
+
+'
+    - 'You: sorry?
+
+'
+    - 'Luis: oh sorry, I sent the message to the wrong person!
+
+'
+    - 'You: Are you getting ready for the day of the dead?
+
+'
+    - 'Luis: Yeah, is it that obvious? jajaja
+
+'
     - 'You: A bit. I usually don''t do anything that day, but it''s still a tradition
-      I know.'
+      I know.
+
+'
     - 'Luis: Well of course... you know, ever since we lost my father, my mother
       wants everything to be perfect that day to honor his soul. I was sending the
-      message to my brother as a reminder.'
-    - 'You: I understand.'
-    - 'Luis: Since we started talking, how are you? How are your investments going?'
-    - 'You: Good for now, it''s only been a month yet.'
-    - 'Luis: Which ones did you choose?'
-    - 'You: The most interesting ones.'
+      message to my brother as a reminder.
+
+'
+    - 'You: I understand.
+
+'
+    - 'Luis: Since we started talking, how are you? How are your investments going?
+
+'
+    - 'You: Good for now, it''s only been a month yet.
+
+'
+    - 'Luis: Which ones did you choose?
+
+'
+    - 'You: The most interesting ones.
+
+'
     - 'Luis: I knew you wouldn''t tell Jajajaja! It doesn''t matter which ones you
-      chose. Giving money is the easy part of investing.'
-    - 'You: How so?'
-    - 'Luis: There are things people need more than money. like being supported.'
+      chose. Giving money is the easy part of investing.
+
+'
+    - 'You: How so?
+
+'
+    - 'Luis: There are things people need more than money. like being supported.
+
+'
     - 'You: You know me, I say what''s on my mind. If they ask me for advice, I will
-      tell them the truth, even if it is bitter.'
+      tell them the truth, even if it is bitter.
+
+'
     - 'Luis: Do whatever you want. I''m curious about the results. I guess we''ll
-      have to wait and see.'
-    - 'You: Right'
-    - 'Luis: Anyway, I have to start preparations. See you later!'
-    - 'You: See you!'
+      have to wait and see.
+
+'
+    - 'You: Right
+
+'
+    - 'Luis: Anyway, I have to start preparations. See you later!
+
+'
+    - 'You: See you!
+
+'
     textSpeed: 0.05
-    gameDay: 0
