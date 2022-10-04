@@ -22,6 +22,7 @@ namespace UnidosJam.UIs
             if (DecisionManager.Instance.CanGoNextDay && !isEndOfTheGameLevel)
             {
                 _fadeCanvas.StartFade();
+                gameObject.SetActive(false);
                 GameManager.Instance.LoadNextSceneWait();
             }
 

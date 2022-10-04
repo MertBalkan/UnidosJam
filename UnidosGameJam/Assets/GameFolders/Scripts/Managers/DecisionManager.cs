@@ -90,7 +90,7 @@ namespace UnidosJam
                 Debug.Log(characterScriptableObject.name);
             }
 
-            _generalTextPanel.CurrentMailPanel.SetAnswer("From: " + NameManager.PlayerName + "\n\n" + _generalTextPanel.CurrentMailPanel.MailInformationSo
+            _generalTextPanel.CurrentMailPanel.SetAnswer("\n\n" + _generalTextPanel.CurrentMailPanel.MailInformationSo
                 .playerAnswersToThisMail.PositiveAnswerToThisMail + "\n" + NameManager.PlayerName
             );
 

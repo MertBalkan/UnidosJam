@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sierra Sevilla & Martin Baltra
   m_EditorClassIdentifier: 
   characterSettings:
-    characterName: Sierra Sevilla & Martin Baltra
+    characterName: Sierra Sevilla
     playerDecisions:
       positiveAnswers: 0
       negativeAnswers: 0

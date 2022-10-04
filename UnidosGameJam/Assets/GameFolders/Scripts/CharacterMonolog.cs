@@ -19,7 +19,7 @@ namespace UnidosJam
         {
             yield return new WaitForSeconds(0.5f);
             FirstDayMonologue();
-            yield return new WaitForSeconds(8);
+            yield return new WaitForSeconds(4);
             monologueBox.gameObject.SetActive(false);
         }
 

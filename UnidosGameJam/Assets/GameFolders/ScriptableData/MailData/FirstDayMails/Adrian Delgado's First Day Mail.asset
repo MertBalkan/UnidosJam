@@ -28,5 +28,5 @@ MonoBehaviour:
       when I'm done with it.\nLet me know when you are ready to start.\nCuidate,
       \nAdri\xE1n"
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: "Well well well, i like u ma man\t\t\t"
-    NegativeAnswerToThisMail: I hate u bb
+    PositiveAnswerToThisMail: "\t"
+    NegativeAnswerToThisMail: 

@@ -31,5 +31,5 @@ MonoBehaviour:
 
       Ines.'
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: Hello frita
-    NegativeAnswerToThisMail: Bb frita
+    PositiveAnswerToThisMail: "\t"
+    NegativeAnswerToThisMail: 

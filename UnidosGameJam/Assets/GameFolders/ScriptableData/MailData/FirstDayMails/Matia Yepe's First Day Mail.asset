@@ -25,5 +25,5 @@ MonoBehaviour:
       in the legends league in no time. I need $50.000 to achieve my dreams. I hope
       you see my vision and chose to invest in me.\nSincarely, \nMatias."
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: 'Hi matia best, '
-    NegativeAnswerToThisMail: Bb matia
+    PositiveAnswerToThisMail: "\t"
+    NegativeAnswerToThisMail: 

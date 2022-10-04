@@ -24,9 +24,7 @@ MonoBehaviour:
       gives to others make a change. We would like to continue working on this project
       to release a full version. In order to bring this project to life, we need
       to expand our team and $50,000 will be enough for all the expenses. Hope you
-      choose to support us. Best, \nSierra"
+      choose to support us. \nBest, \nSierra"
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: "Hi merto\t\t"
-    NegativeAnswerToThisMail: 'Bb merto
-
-'
+    PositiveAnswerToThisMail: 
+    NegativeAnswerToThisMail: 
