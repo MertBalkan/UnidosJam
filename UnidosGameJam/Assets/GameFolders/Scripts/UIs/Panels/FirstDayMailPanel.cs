@@ -109,7 +109,7 @@ namespace UnidosJam
             _beforeText = "\n" + "From: " + mailStruct.character.characterSettings.characterName + "\t" +
                           mailStruct.mailTitle + "\t" +
                          "\n" + "\n" +
-                          "" + mailInformationSo.mailInformationStruct.MailText + "\n";
+                          "" + mailInformationSo.mailInformationStruct.MailText;
             
             testText.GetComponent<TextMeshProUGUI>().text = _beforeText;
         }
