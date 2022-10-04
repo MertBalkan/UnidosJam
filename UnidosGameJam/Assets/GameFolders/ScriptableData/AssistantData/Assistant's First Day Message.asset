@@ -14,9 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assistantMessageOptions:
     assistantDialogues:
-    - 'Louis: This is first text from assistant'
-    - 'You: This is my first answer as a Player'
-    - 'Louis: This is second text from assistant'
-    - 'You: This is my second  answer as a Player'
+    - 'Luis: Hello!'
+    - 'You: Hello Luis'
+    - 'Luis: The day has come...'
+    - 'You: Yes, it''s the first day of Hispanic Heritage Month. And the day you
+      promised to finish the research I asked you to do??'
+    - 'Luis: Yup, and I did it just as I promised. Have you checked you e-mail?'
+    - 'You: I''ll do just after this conversation. Thanks a lot!'
+    - 'Luis: No worries. I should say tho, I admire you for doing this. I believe
+      those people will make a difference with your support.'
+    - 'You: Thanks Luis. I thought it was about time to pay back what I owe to my
+      roots and I couldn''t think of doing it at a better time than this month, right?'
+    - 'Luis: Jajaja yea, certainly! I think you will like them all. How much did
+      you say you would invest in?'
+    - 'You: I have spared $100.000 for this and I want to help as many people as
+      I can.'
+    - 'Luis: Ouch. I''ve sent you four awesome candidates with different business
+      plans. All of them are young, passionate people with hispanic origin. But each
+      needs $50.000 for their startups'
+    - 'Luis: You have a desicion to make.'
+    - 'You: Hmm... it seems so. I better start thinking about it.'
+    - 'Luis: Yup. Good luck on picking two of them.'
+    - 'You: Thanks again! Talk to you later.'
+    - 'Luis: See you'
     textSpeed: 0.05
     gameDay: 0

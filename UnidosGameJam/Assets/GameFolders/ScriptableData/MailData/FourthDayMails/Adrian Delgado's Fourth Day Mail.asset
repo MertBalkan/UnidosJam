@@ -16,7 +16,30 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: ebf0856ffeb544d42ae76ccff6bf7780, type: 2}
     mailTitle: 
     mailDate: 'Dec. 20. '
-    MailText: Bos
+    MailText: "Hello boss.\nEverything is going very well. Someone famous came to
+      the restaurant this month, I really don't know who it is. But he shared a story
+      on the internet that saying food here is very good. The whole place is packed
+      now! We are really having a hard time keeping up with orders. We got new employees
+      so it's under control. Everything is really great. It's almost time for noche
+      buena and we are making the necessary preparations. We will distribute food
+      to the homeless for noche buena. We don't have to do this, but I want to.It's
+      not a big organization, but it's what I owe the people of my city. We will
+      make new additions to the menu in the new year and it will also be a like a
+      tasting event. Anyway, I'll let you know how it went next year! \nAdrian."
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: Bos
-    NegativeAnswerToThisMail: Bos
+    PositiveAnswerToThisMail: 'Hi Adrian,
+
+      I''m glad things worked out. You
+      did it in a really short time, congratulations! I''m sure your family is very
+      proud of you. Your plan for Noche Buena is very well thought. I''d like to
+      support you on this so if you need help, just let me know.
+
+      Best, '
+    NegativeAnswerToThisMail: Hello. You're lucky that someone famous came to the
+      restaurant, otherwise we would have kept losing money. I couldn't understand
+      the reason why do you want to fill the place with homeless on Noche Bueno,
+      everyone spends that holiday with their family. I thought you wanted to run
+      a higher-end restaurant, not a charity organization. These types of places
+      don't do such events, you are damaging your own image. Once you have the homeless
+      people in, your customers won't want to come there. You'll also lose a lot
+      of money. If only you were good enough in management to calculate these. Anyways.

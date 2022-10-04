@@ -10895,6 +10895,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1276346751}
+    - target: {fileID: 8954521547680058375, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2347.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521547680058375, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -904.5356
+      objectReference: {fileID: 0}
     - target: {fileID: 8954521547876128694, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: mailPanels
       value: 
@@ -11033,7 +11041,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.45973748
+      value: 0.7706631
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 9.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.96062505
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6137502
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954521549174890209, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.73
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07f408bda63fb0d48b0eab4f25ff9d74, type: 3}

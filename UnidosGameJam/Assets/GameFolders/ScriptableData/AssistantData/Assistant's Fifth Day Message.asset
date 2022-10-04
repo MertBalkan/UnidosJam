@@ -14,9 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assistantMessageOptions:
     assistantDialogues:
-    - 'Louis: This is first text from assistant 5'
-    - 'You: This is my first answer as a Player 5'
-    - 'Louis: This is second text from assistant 5'
-    - 'You: This is my second  answer as a Player 5'
+    - 'Luis: Hey,'
+    - 'You: Hey there'
+    - 'Luis: Have you heard the news?'
+    - 'You: Yes, of course I have. It''s horrible.'
+    - 'Luis: I know. No one was expecting this Hurricane. It has devastated the island.
+      I watched the news, they say some areas of Puerto Rico got over 30 inches of
+      rain!'
+    - 'You: I wish I could do something to help.'
+    - 'Luis: Actually you can.'
+    - 'You: How?'
+    - 'Luis: You can donate to Community Response Fund and any of the Non Profit
+      Organizations. This is the least we can do.'
+    - 'You: How do they help exactly?'
+    - 'Luis: They are in a direct touch with people who have been impacted. They
+      provide food, water, access to showers, medicine and more.I can send you the
+      list of the organisations. Also, Latinx In Gaming is matching donations up
+      to $2.500.'
+    - 'You: That would be great Luis, thank you. I''ll check it out and make my donation
+      right away.'
+    - 'Luis: No problem. I''ll send you the list in a bit. Talk to you later.'
     textSpeed: 0.05
     gameDay: 0

@@ -16,14 +16,29 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
     mailTitle: 
     mailDate: 'Nov. 26. '
-    MailText: "Greetings, my name is Matias Yepes and I'm a young but very determined
-      fashion designer. I believe ones best way to express his true self is through
-      fashion and I want to show the rich hispanic herritage to everyone with nicely
-      designed pieces. From camp shirts to gaucho pants, panchos to panama hats everything
-      I design will carry the traces of my true ethnic style. I already have an audience
-      on social media who loves and supports me, with their help I believe I'll be
-      in the legends league in no time. I need $50.000 to achieve my dreams. I hope
-      you see my vision and chose to invest in me.\nSincarely, \nMatias."
+    MailText: Hello, I hope you read the Latinx Daily News, if not you should go
+      and read it right away! They wrote that I am presenting my new collection.
+      Pretty cool, right? For now it's only shown to a small community. When I have
+      a bigger audience supporting me, I will move to the next league! I'm getting
+      good feedbacks so far. Some people question why I don't make a collection for
+      women (of course!), but I will stand out by appealing to a niche audience.
+      They don't know how things work! I only have a few pieces in my collection
+      at the moment, but they're all stars! I will take this collection to several
+      different cities to show it. But that will not be the biggest thing I'll do.
+      I am taking slow but firm steps forward.
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: 0
-    NegativeAnswerToThisMail: 0
+    PositiveAnswerToThisMail: 'Hi Matias and wow, have you already released a collection?
+      you are doing really well. It''s great that you''ve accomplished this in such
+      a short time. Maybe the reason they ask why you don''t make a collection for
+      women is because they want you to do it? This is a good thing. I look forward
+      to the next big thing you will do in the future, good job!
+
+      Sincerely,'
+    NegativeAnswerToThisMail: Hello Matias.Congratulations, I hope your collection
+      resonates well. Where you start is very important because people don't forget
+      the mistakes you make. Appealing to a niche audience may not always be the
+      right decision, after all, it's a business and we do it to make money, but
+      you don't seem to care. If you are expected to make a collection for women
+      and that makes sense, then make a collection for women?. Being in a newspaper
+      today may sound nice, but you can't live in a fantasy world for long. Real
+      life is not like that.

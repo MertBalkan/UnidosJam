@@ -13,7 +13,6 @@ namespace UnidosJam
         {
             [Multiline] public string[] assistantDialogues;
             public float textSpeed;
-            public int gameDay;
         }
         public AssistantMessageOptions assistantMessageOptions;
     }

@@ -16,14 +16,31 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
     mailTitle: 
     mailDate: Oct. 27.
-    MailText: "Greetings, my name is Matias Yepes and I'm a young but very determined
-      fashion designer. I believe ones best way to express his true self is through
-      fashion and I want to show the rich hispanic herritage to everyone with nicely
-      designed pieces. From camp shirts to gaucho pants, panchos to panama hats everything
-      I design will carry the traces of my true ethnic style. I already have an audience
-      on social media who loves and supports me, with their help I believe I'll be
-      in the legends league in no time. I need $50.000 to achieve my dreams. I hope
-      you see my vision and chose to invest in me.\nSincarely, \nMatias."
+    MailText: 'Hello there!
+
+      You are about to find out that you made the right
+      decision by choosing to invest in my project. The only thing holding back my
+      progress was lack of money, and once this issue was resolved, I''ve started
+      to climb up the ladder. Already my first designs are coming to life. I''m preparing
+      a great collection for men, it will be groundbreaking. I bring traditional
+      latin designs to the modern line, just what people need but don''t know yet.
+      I work so hard you wouldn''t believe it. I''m keeping this project as a secret
+      for now, but in a few months it will be everywhere! Stay tuned!
+
+      Best
+      regards, Matias.'
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: 0
-    NegativeAnswerToThisMail: 0
+    PositiveAnswerToThisMail: "Hello Matias,\nIt's great to see you're so excited.
+      I think the only way to achieve great success is to love what you do. I believe
+      you can do it. Can't wait to see your collection, I hope I can find a few pieces
+      for myself! Anyway, thanks for keeping me posted. \nBest,"
+    NegativeAnswerToThisMail: 'Hello Matias,
+
+      I don''t know if I made the right
+      desicion by investing in you yet. Time will show that. Why are you making a
+      collection for men instead of women? The majority of the fashion industry focuses
+      of women. If you want to make money, you have to make the right decisions.
+      You don''t seem to be doing that right now.
+
+      You''d better reconsider
+      this decision.'

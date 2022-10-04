@@ -16,7 +16,28 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
     mailTitle: 
     mailDate: 'Jan. 15. '
-    MailText: 0
+    MailText: "Hello!\nFinally I came back home. The connections I made in Paris
+      opened new doors for me here. Apparently a famous Latin singer likes my designs
+      and wants me to be her stylist! This is a great opportunity. I'll have to devote
+      all my time to it. But that's my job after all! It is really valuable that
+      people give opportunity to young designers. I'm suspending my own work for
+      a while, when this short-term partnership ends, I will continue where I left
+      off. I don't need to do much until next year's fashion week anyway.  (I'm not
+      telling you the name of the singer, surprise for now!) That's the way things
+      are for now, you'll see my designs on stage soon!\nBest, \nMatias"
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: 0
-    NegativeAnswerToThisMail: 0
+    PositiveAnswerToThisMail: 'Hello Matias
+
+      I really wonder who it is! From
+      what you''re describing, it looks like you''ve got a really good opportunity.
+      It was only a matter of time before important people noticed you! Congratulations,
+      I have no doubt that you will do great work. Keep it up!
+
+      Best,'
+    NegativeAnswerToThisMail: 'Hello Matias
+
+      I wouldn''t have invested in you
+      if I had known from the beginning that you only intended to be a celebrity
+      stylist. You said you wanted to follow your dreams and create your own brand.
+      Maybe you think you can make money the easy way, but now you are no different
+      from anyone else. If that''s what you want, maybe you shouldn''t even bother.'

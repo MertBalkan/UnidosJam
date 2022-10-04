@@ -16,7 +16,26 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 2eb6337fba38bcb49ad4056139537da0, type: 2}
     mailTitle: 
     mailDate: 'Dec. 20. '
-    MailText: 0
+    MailText: 'Bonjour!
+
+      I spent this month in Paris with my boyfriend. It''s
+      a great city, isn''t it? Of course, I didn''t come here just to travel. I show
+      my designs to some collectors and fashion houses here. There are important
+      fashion designers to meet and network is everything! Especially in this business.
+      Since my family is not famous or anything, I try to make myself out of nothing
+      so I have to make some connections... Anyway, I''m having a good time and learning
+      a lot of new things. I believe these business contacts will be very useful
+      to me. See you next month.'
   playerAnswersToThisMail:
-    PositiveAnswerToThisMail: 0
-    NegativeAnswerToThisMail: 0
+    PositiveAnswerToThisMail: 'Hello Matias.I''m sure Paris is beautiful this time
+      of year. I''m glad you had a good time. You''re right about the importance
+      of business contacts, unfortunately sometimes no matter how talented you are,
+      if you don''t know some people, no one will notice you. I think you made the
+      right decision to go there, I hope you can make good connections. Have fun!
+
+      Best,'
+    NegativeAnswerToThisMail: Hello Matias.Did you go to Paris? And you expect me
+      to believe it was just a business trip? I don't know about business contacts
+      there, but you could try making business contacts here first! I think it's
+      really easy to spend the money when someone else finances your project. This
+      way, you can't keep this business going for very long, just so you know.
