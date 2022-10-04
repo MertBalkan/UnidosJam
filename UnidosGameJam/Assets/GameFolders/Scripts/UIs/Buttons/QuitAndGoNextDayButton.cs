@@ -48,6 +48,7 @@ namespace UnidosJam.UIs
                 if (PositiveNegativeManager.Instance.CanGoNextDay)
                 {
                     _fadeCanvas.StartFade();
+                    gameObject.SetActive(false);
                     GameManager.Instance.LoadNextSceneWait();
                 }
             }
