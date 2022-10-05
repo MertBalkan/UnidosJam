@@ -7,11 +7,11 @@ namespace UnidosJam
     {
         private TextMeshProUGUI _nameText;
 
-        public TextMeshProUGUI NameString => _nameText;
+        public TextMeshProUGUI NameString => GetComponent<TextMeshProUGUI>();
 
         private void Awake()
         {
-            _nameText = GetComponent<TextMeshProUGUI>();
+            // _nameText = GetComponent<TextMeshProUGUI>();
         }
     }
 }

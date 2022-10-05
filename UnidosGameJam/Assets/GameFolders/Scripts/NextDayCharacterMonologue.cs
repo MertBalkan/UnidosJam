@@ -28,8 +28,6 @@ namespace UnidosJam
             _currentTimeNothingToDo += Time.deltaTime;
             _currentShouldReply += Time.deltaTime;
 
-            Debug.Log(_currentTimeNothingToDo);
-            
             if (_currentTimeNothingToDo >= _nothingToDoSec) _currentTimeNothingToDo = _nothingToDoSec;
             if (_currentShouldReply >= _shouldReplySec) _currentShouldReply = _shouldReplySec;
             

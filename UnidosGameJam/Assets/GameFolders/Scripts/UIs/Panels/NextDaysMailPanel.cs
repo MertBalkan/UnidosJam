@@ -7,8 +7,8 @@ namespace UnidosJam
 {
     public class NextDaysMailPanel : MonoBehaviour
     {
-        [SerializeField] private NameText nameText;
-        [SerializeField] private DateText dateText;
+        [SerializeField] private TextMeshProUGUI nameText;
+        [SerializeField] private TextMeshProUGUI dateText;
         
         [SerializeField] private AnswerText answerText;
         [SerializeField] private AnswerText[] otherAnswerTexts;
@@ -51,16 +51,9 @@ namespace UnidosJam
         {
             var mailStruct =
                 characterScriptableObject.characterSettings.characterMails[GameManager.Instance.CurrentDayCount];
-
-            try
-            {
-                nameText.NameString.text = mailStruct.mailInformationStruct.character.characterSettings.characterName;
-                dateText.DateString.text = mailStruct.mailInformationStruct.mailDate;
-            }
-            catch (Exception e)
-            {
-                
-            } 
+            
+            nameText.text = mailStruct.mailInformationStruct.character.characterSettings.characterName;
+            dateText.text = mailStruct.mailInformationStruct.mailDate;
         }
         
         private void Awake()

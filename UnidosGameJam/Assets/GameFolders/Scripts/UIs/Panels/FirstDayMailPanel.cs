@@ -8,8 +8,8 @@ namespace UnidosJam
 {
     public class FirstDayMailPanel : MonoBehaviour
     {
-        [SerializeField] private NameText nameText;
-        [SerializeField] private DateText dateText;
+        [SerializeField] private TextMeshProUGUI nameText;
+        [SerializeField] private TextMeshProUGUI dateText;
             
         [SerializeField] private AnswerText answerText;
         [SerializeField] private AnswerText[] otherAnswerTexts;
@@ -46,19 +46,10 @@ namespace UnidosJam
         private void OnEnable()
         {
             var mailStruct = mailInformationSo.mailInformationStruct;
-
-            try
-            {
-                nameText.NameString.text = mailStruct.character.characterSettings.characterName;
-                dateText.DateString.text = mailStruct.mailDate;
-            }
-            catch (Exception e)
-            {
-                
-            }
+            
+            nameText.text = mailStruct.character.characterSettings.characterName;
+            dateText.text = mailStruct.mailDate;
         }
-        
-        
         private void Awake()
         {
             _mailPanels = FindObjectOfType<MailPanels>();
