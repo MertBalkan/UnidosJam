@@ -51,9 +51,16 @@ namespace UnidosJam
         {
             var mailStruct =
                 characterScriptableObject.characterSettings.characterMails[GameManager.Instance.CurrentDayCount];
-            
-            nameText.NameString.text = mailStruct.mailInformationStruct.character.characterSettings.characterName;
-            dateText.DateString.text = mailStruct.mailInformationStruct.mailDate;
+
+            try
+            {
+                nameText.NameString.text = mailStruct.mailInformationStruct.character.characterSettings.characterName;
+                dateText.DateString.text = mailStruct.mailInformationStruct.mailDate;
+            }
+            catch (Exception e)
+            {
+                
+            } 
         }
         
         private void Awake()

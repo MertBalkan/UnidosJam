@@ -16,14 +16,15 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: 94412374088588748a56cecd16f84b33, type: 2}
     mailTitle: 
     mailDate: 'Nov. 24. '
-    MailText: "Hi, hope you are doing well. I'd like to inform you that Mart\xEDn
-      and I have started working on our project planning. We were supposed to deliver
-      a finished game design document this month but my cat got very sick and Mart\xEDn
-      was having power and internet outages. He's very upset about it... Anyway,
-      I wanted to let you know that we had some small-ish problems which caused us
-      to fall behind the schedule a bit this month. We are doing everything we can
-      to get back on track, do not worry. I'm hoping to give you better news next
-      month.\nBest, \nSierra."
+    MailText: "Hello. I'm excited to share the progress with you. After the problems
+      we had last month, we were finally able to focus on the project as it should
+      have been. Our game design document is ready and we have already started developing
+      the game. I know it took a while to get it ready but it's actually a quite
+      important part of the process. Also, someone new has joined our team and he
+      will be responsible for the designs so I can focus on narratives. We plan to
+      release a short trailer of the game next month. This won't be a real trailer,
+      but we think it will be useful for gathering our audience. I need to get back
+      to work now, thanks for your help.\nBest, \nSierra."
   playerAnswersToThisMail:
     PositiveAnswerToThisMail: "Hi Sierra. Thank you for letting me know about the
       progress. I'm so glad that everything worked out on your end. Growing the team

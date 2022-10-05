@@ -47,8 +47,15 @@ namespace UnidosJam
         {
             var mailStruct = mailInformationSo.mailInformationStruct;
 
-            nameText.NameString.text = mailStruct.character.characterSettings.characterName;
-            dateText.DateString.text = mailStruct.mailDate;
+            try
+            {
+                nameText.NameString.text = mailStruct.character.characterSettings.characterName;
+                dateText.DateString.text = mailStruct.mailDate;
+            }
+            catch (Exception e)
+            {
+                
+            }
         }
         
         
