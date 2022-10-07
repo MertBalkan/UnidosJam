@@ -1,7 +1,7 @@
 # UnidosJam
 
 <h1> Hispanic Heritage Month GameJam! </h1>
-<p href = "https://sezg.itch.io/investor"> Game Link </p>
+<a href = "https://sezg.itch.io/investor"> Game Link </a>
 
 <h2>Team<h2>
 <p>Game Artist/Game Designer: Sezgi Sevilmiş</p>
