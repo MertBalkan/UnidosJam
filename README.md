@@ -15,3 +15,7 @@ Investor is an interactive fiction game with multiple endings made for Unidos Hi
 In this particular month, you want to invest in the startups of young and talented latinos. They all have different business plans and journeys. You will witness the progress of the ones you chose to invest in for the next 5 months by receiving emails. 
 
 This is not a game to win or lose. This is an interactive fiction game with multiple endings that shows how a genuine support one gives to others make a change. We believe there are endless ways to support others and for that reason, giving support is just a desicion to make. This game you'll decide either you will truly support them or not, and you'll see different endings based on your desicions. You will also find many traces of Latinx culture on this journey.
+
+![image](https://user-images.githubusercontent.com/43827959/194671074-e505dddf-6313-4096-bc6f-2378b4473e6b.png)
+![image](https://user-images.githubusercontent.com/43827959/194671086-bfecc871-c854-4740-aa65-05f50090180a.png)
+![image](https://user-images.githubusercontent.com/43827959/194671094-6d7558d1-6238-4d4b-9423-e8ba64287f90.png)
