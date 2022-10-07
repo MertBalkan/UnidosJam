@@ -7,8 +7,10 @@
 <a href = "https://sezg.itch.io/investor"> Game Link </a>
 
 <h2>Team</h2>
-<p>Game Artist/Game Designer: Sezgi Sevilmiş</p>
-<p>Game Developer: Mert Balkan</p>
+> Game Artist/Game Designer: Sezgi Sevilmiş
+> Game Developer: Mert Balkan
+
+
 
 Investor is an interactive fiction game with multiple endings made for Unidos Hispanic Heritage Month Jam 2022
 
