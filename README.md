@@ -3,7 +3,7 @@
 <h1> Hispanic Heritage Month GameJam! </h1>
 <a href = "https://sezg.itch.io/investor"> Game Link </a>
 
-<h2>Team<h2>
+<h2>Team</h2>
 <p>Game Artist/Game Designer: Sezgi Sevilmiş</p>
 <p>Game Developer: Mert Balkan</p>
 
