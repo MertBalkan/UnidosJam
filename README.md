@@ -1,5 +1,8 @@
 # UnidosJam
 
+![image](https://user-images.githubusercontent.com/43827959/194671013-ed3f9e50-7505-47a0-a532-9ec0df705983.png)
+
+
 <h1> Hispanic Heritage Month GameJam! </h1>
 <a href = "https://sezg.itch.io/investor"> Game Link </a>
 
